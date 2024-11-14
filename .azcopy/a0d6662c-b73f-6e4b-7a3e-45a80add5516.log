@@ -1,0 +1,58 @@
+2024/08/01 09:02:43 AzcopyVersion  10.13.0
+2024/08/01 09:02:43 OS-Environment  windows
+2024/08/01 09:02:43 OS-Architecture  amd64
+2024/08/01 09:02:43 Log times are in UTC. Local time is 1 Aug 2024 11:02:43
+2024/08/01 09:02:43 Job-Command copy https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/Template/setup.xml?se=2024-08-31t09%3A02%3A41z&sig=-REDACTED-&sp=rl&sr=s&sv=2020-10-02 C:\Users\LungaNgubane\Documents\CLIENTS\SMARTLIFE\esypay\setup.xml --output-type=json --cancel-from-stdin --overwrite=prompt --check-md5 FailIfDifferent --from-to=FileLocal --preserve-smb-info=true --recursive --log-level=INFO 
+2024/08/01 09:02:43 Number of CPUs: 8
+2024/08/01 09:02:43 Max file buffer RAM 4.000 GB
+2024/08/01 09:02:43 Max concurrent network operations:  will be dynamically tuned up to 3000 (Based on auto-tuning limit. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2024/08/01 09:02:43 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2024/08/01 09:02:43 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2024/08/01 09:02:43 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2024/08/01 09:02:43 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2024/08/01 09:02:43 Max open files when downloading: 2147483119 (auto-computed)
+2024/08/01 09:02:43 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2024-08-01T09:02:38Z or --include-after=2024-08-01T09:02:38Z
+2024/08/01 09:02:43 WARN: Failed to check if the destination is a folder or a file (Azure Files). Assuming the destination is a file: -> github.com/Azure/azure-storage-file-go/azfile.newStorageError, /home/vsts/go/pkg/mod/github.com/!azure/azure-storage-file-go@v0.6.1-0.20201111053559-3c1754dc00a5/azfile/zc_storage_error.go:42
+===== RESPONSE ERROR (ServiceCode=ResourceNotFound) =====
+Description=The specified resource does not exist.
+RequestId:aa7a6fe9-201a-0022-3df1-e3b1e9000000
+Time:2024-08-01T09:02:44.3221915Z, Details: 
+   Code: ResourceNotFound
+   GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/Template/setup.xml?restype=directory&se=2024-08-31t09%3A02%3A41z&sig=-REDACTED-&sp=rl&sr=s&sv=2020-10-02&timeout=901
+   User-Agent: [Microsoft Azure Storage Explorer, 1.22.1, win32, azcopy-node, 2.0.0, win32,  AzCopy/10.13.0 Azure-Storage/0.8.0 (go1.16; Windows_NT)]
+   X-Ms-Client-Request-Id: [820a2853-94a8-4d08-427f-c179be19753e]
+   X-Ms-Version: [2019-12-12]
+   --------------------------------------------------------------------------------
+   RESPONSE Status: 404 The specified resource does not exist.
+   Content-Length: [223]
+   Content-Type: [application/xml]
+   Date: [Thu, 01 Aug 2024 09:02:43 GMT]
+   Server: [Windows-Azure-File/1.0 Microsoft-HTTPAPI/2.0]
+   X-Ms-Client-Request-Id: [820a2853-94a8-4d08-427f-c179be19753e]
+   X-Ms-Error-Code: [ResourceNotFound]
+   X-Ms-Request-Id: [aa7a6fe9-201a-0022-3df1-e3b1e9000000]
+   X-Ms-Version: [2019-12-12]
+
+
+
+2024/08/01 09:02:43 Any empty folders will be processed, because source and destination both support folders. For the same reason, properties defined on folders will be processed
+2024/08/01 09:02:43 Final job part has been created
+2024/08/01 09:02:43 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs:  0
+2024/08/01 09:02:43 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2024/08/01 09:02:43 scheduling JobID=a0d6662c-b73f-6e4b-7a3e-45a80add5516, Part#=0, Transfer#=0, priority=0
+2024/08/01 09:02:43 Final job part has been scheduled
+2024/08/01 09:02:44 INFO: [P#0-T#0] has worker 31 which is processing TRANSFER 0
+2024/08/01 09:02:44 ==> REQUEST/RESPONSE (Try=1/44.1683ms, OpTime=94.943ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/Template/setup.xml?se=2024-08-31t09%3A02%3A41z&sig=-REDACTED-&sp=rl&sr=s&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [29fa7cbc-501a-0028-0af1-e3155e000000]
+
+2024/08/01 09:02:44 ==> REQUEST/RESPONSE (Try=1/13.6065ms, OpTime=13.6065ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/Template/setup.xml?se=2024-08-31t09%3A02%3A41z&sig=-REDACTED-&sp=rl&sr=s&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [29fa7cbf-501a-0028-0bf1-e3155e000000]
+
+2024/08/01 09:02:44 INFO: [P#0-T#0] DOWNLOADSUCCESSFUL: \\?\C:\Users\LungaNgubane\Documents\CLIENTS\SMARTLIFE\esypay\setup.xml
+2024/08/01 09:02:44 JobID=a0d6662c-b73f-6e4b-7a3e-45a80add5516, Part#=0, TransfersDone=1 of 1
+2024/08/01 09:02:44 all parts of entire Job a0d6662c-b73f-6e4b-7a3e-45a80add5516 successfully completed, cancelled or paused
+2024/08/01 09:02:44 is part of Job which 1 total number of parts done 
+2024/08/01 09:02:46 Trying 4 concurrent connections (initial starting point)
+2024/08/01 09:02:46 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs:  4

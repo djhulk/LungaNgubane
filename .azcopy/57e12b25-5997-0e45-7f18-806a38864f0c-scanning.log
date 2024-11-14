@@ -1,0 +1,13 @@
+2022/04/07 10:09:16 AzcopyVersion  10.13.0
+2022/04/07 10:09:16 OS-Environment  windows
+2022/04/07 10:09:16 OS-Architecture  amd64
+2022/04/07 10:09:16 Log times are in UTC. Local time is 7 Apr 2022 12:09:16
+2022/04/07 10:09:17 ==> REQUEST/RESPONSE (Try=1/60.6492ms, OpTime=349.7078ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/LLK%20RFQ105%20Branch%20and%20Marketer%20Exergy%20Table.zip?se=2022-05-07t10%3A09%3A16z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [6914d777-c01e-002a-0767-4aabe6000000]
+
+2022/04/07 10:09:17 ==> REQUEST/RESPONSE (Try=1/47.4487ms, OpTime=47.4487ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/LLK%20RFQ105%20Branch%20and%20Marketer%20Exergy%20Table.zip?se=2022-05-07t10%3A09%3A16z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [6914d7c2-c01e-002a-4e67-4aabe6000000]
+
+2022/04/07 10:09:19 Closing Log

@@ -1,0 +1,76 @@
+2024/08/01 13:36:48 AzcopyVersion  10.13.0
+2024/08/01 13:36:48 OS-Environment  windows
+2024/08/01 13:36:48 OS-Architecture  amd64
+2024/08/01 13:36:48 Log times are in UTC. Local time is 1 Aug 2024 15:36:48
+2024/08/01 13:36:48 Job-Command copy C:\Users\LungaNgubane\Documents\CLIENTS\SMARTLIFE\esypay\EP-137274 -- Funeral Plan Import File Example.csv https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/EP-137274%20--%20Funeral%20Plan%20Import%20File%20Example.csv?se=2024-08-31t13%3A36%3A45z&sig=-REDACTED-&sp=rwl&sr=s&sv=2020-10-02 --output-type=json --cancel-from-stdin --overwrite=prompt --from-to=LocalFile --follow-symlinks --put-md5 --follow-symlinks --preserve-smb-info=true --disable-auto-decoding=false --recursive --log-level=INFO 
+2024/08/01 13:36:48 Number of CPUs: 8
+2024/08/01 13:36:48 Max file buffer RAM 4.000 GB
+2024/08/01 13:36:48 Max concurrent network operations:  will be dynamically tuned up to 3000 (Based on auto-tuning limit. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2024/08/01 13:36:48 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2024/08/01 13:36:48 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2024/08/01 13:36:48 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2024/08/01 13:36:48 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2024/08/01 13:36:48 Max open files when downloading: 2147483119 (auto-computed)
+2024/08/01 13:36:48 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2024-08-01T13:36:43Z or --include-after=2024-08-01T13:36:43Z
+2024/08/01 13:36:48 WARN: Failed to check if the destination is a folder or a file (Azure Files). Assuming the destination is a file: -> github.com/Azure/azure-storage-file-go/azfile.newStorageError, /home/vsts/go/pkg/mod/github.com/!azure/azure-storage-file-go@v0.6.1-0.20201111053559-3c1754dc00a5/azfile/zc_storage_error.go:42
+===== RESPONSE ERROR (ServiceCode=ResourceNotFound) =====
+Description=The specified resource does not exist.
+RequestId:7476298c-f01a-000e-1a17-e45d46000000
+Time:2024-08-01T13:36:49.5900758Z, Details: 
+   Code: ResourceNotFound
+   GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/EP-137274%20--%20Funeral%20Plan%20Import%20File%20Example.csv?restype=directory&se=2024-08-31t13%3A36%3A45z&sig=-REDACTED-&sp=rwl&sr=s&sv=2020-10-02&timeout=901
+   User-Agent: [Microsoft Azure Storage Explorer, 1.22.1, win32, azcopy-node, 2.0.0, win32,  AzCopy/10.13.0 Azure-Storage/0.8.0 (go1.16; Windows_NT)]
+   X-Ms-Client-Request-Id: [b7035646-7114-4660-6006-34e4309f0c38]
+   X-Ms-Version: [2019-12-12]
+   --------------------------------------------------------------------------------
+   RESPONSE Status: 404 The specified resource does not exist.
+   Content-Length: [223]
+   Content-Type: [application/xml]
+   Date: [Thu, 01 Aug 2024 13:36:49 GMT]
+   Server: [Windows-Azure-File/1.0 Microsoft-HTTPAPI/2.0]
+   X-Ms-Client-Request-Id: [b7035646-7114-4660-6006-34e4309f0c38]
+   X-Ms-Error-Code: [ResourceNotFound]
+   X-Ms-Request-Id: [7476298c-f01a-000e-1a17-e45d46000000]
+   X-Ms-Version: [2019-12-12]
+
+
+
+2024/08/01 13:36:48 Any empty folders will be processed, because source and destination both support folders. For the same reason, properties defined on folders will be processed
+2024/08/01 13:36:48 Final job part has been created
+2024/08/01 13:36:48 Trying 4 concurrent connections (initial starting point)
+2024/08/01 13:36:48 PERF: primary performance constraint is Unknown. States: X:  0, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  0, GRs:  4
+2024/08/01 13:36:48 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2024/08/01 13:36:48 scheduling JobID=6f804d84-cab0-9846-4ce2-032af9df299f, Part#=0, Transfer#=0, priority=0
+2024/08/01 13:36:48 Final job part has been scheduled
+2024/08/01 13:36:48 INFO: [P#0-T#0] has worker 52 which is processing TRANSFER 0
+2024/08/01 13:36:48 WARN: [P#0-T#0] Block size 8388608 larger than maximum file chunk size, 4 MB chunk size used
+2024/08/01 13:36:48 INFO: [P#0-T#0] Starting transfer: Source "\\\\?\\C:\\Users\\LungaNgubane\\Documents\\CLIENTS\\SMARTLIFE\\esypay\\EP-137274 -- Funeral Plan Import File Example.csv" Destination "https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/EP-137274%20--%20Funeral%20Plan%20Import%20File%20Example.csv?se=2024-08-31t13%3A36%3A45z&sig=-REDACTED-&sp=rwl&sr=s&sv=2020-10-02". Specified chunk size 4194304
+2024/08/01 13:36:48 ==> REQUEST/RESPONSE (Try=1/18.284ms, OpTime=63.2637ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/EP-137274%20--%20Funeral%20Plan%20Import%20File%20Example.csv?se=2024-08-31t13%3A36%3A45z&sig=-REDACTED-&sp=rwl&sr=s&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [1ea770c9-301a-0011-0217-e4ee42000000]
+
+2024/08/01 13:36:48 ==> REQUEST/RESPONSE (Try=1/20.1149ms, OpTime=22.9483ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/EP-137274%20--%20Funeral%20Plan%20Import%20File%20Example.csv?se=2024-08-31t13%3A36%3A45z&sig=-REDACTED-&sp=rwl&sr=s&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [1ea770cc-301a-0011-0317-e4ee42000000]
+
+2024/08/01 13:36:48 ==> REQUEST/RESPONSE (Try=1/14.5252ms, OpTime=14.5252ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/EP-137274%20--%20Funeral%20Plan%20Import%20File%20Example.csv?comp=range&se=2024-08-31t13%3A36%3A45z&sig=-REDACTED-&sp=rwl&sr=s&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [1ea770cd-301a-0011-0417-e4ee42000000]
+
+2024/08/01 13:36:48 ==> REQUEST/RESPONSE (Try=1/17.0892ms, OpTime=17.0892ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/EP-137274%20--%20Funeral%20Plan%20Import%20File%20Example.csv?comp=properties&se=2024-08-31t13%3A36%3A45z&sig=-REDACTED-&sp=rwl&sr=s&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [1ea770ce-301a-0011-0517-e4ee42000000]
+
+2024/08/01 13:36:48 ==> REQUEST/RESPONSE (Try=1/14.6433ms, OpTime=14.6433ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/EP-137274%20--%20Funeral%20Plan%20Import%20File%20Example.csv?comp=properties&se=2024-08-31t13%3A36%3A45z&sig=-REDACTED-&sp=rwl&sr=s&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [1ea770cf-301a-0011-0617-e4ee42000000]
+
+2024/08/01 13:36:48 ==> REQUEST/RESPONSE (Try=1/11.989ms, OpTime=11.989ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/EP-137274%20--%20Funeral%20Plan%20Import%20File%20Example.csv?se=2024-08-31t13%3A36%3A45z&sig=-REDACTED-&sp=rwl&sr=s&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [1ea770d0-301a-0011-0717-e4ee42000000]
+
+2024/08/01 13:36:48 INFO: [P#0-T#0] UPLOADSUCCESSFUL: https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/EP-137274%20--%20Funeral%20Plan%20Import%20File%20Example.csv
+2024/08/01 13:36:48 JobID=6f804d84-cab0-9846-4ce2-032af9df299f, Part#=0, TransfersDone=1 of 1
+2024/08/01 13:36:48 all parts of entire Job 6f804d84-cab0-9846-4ce2-032af9df299f successfully completed, cancelled or paused
+2024/08/01 13:36:48 is part of Job which 1 total number of parts done 
+2024/08/01 13:36:50 PERF: primary performance constraint is Unknown. States: X:  0, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  0, GRs:  4

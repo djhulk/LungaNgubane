@@ -1,0 +1,70 @@
+2024/09/17 08:36:11 AzcopyVersion  10.24.0
+2024/09/17 08:36:11 OS-Environment  windows
+2024/09/17 08:36:11 OS-Architecture  amd64
+2024/09/17 08:36:11 Log times are in UTC. Local time is 17 Sep 2024 10:36:11
+2024/09/17 08:36:12 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2024-09-17T08:36:06Z or --include-after=2024-09-17T08:36:06Z
+2024/09/17 08:36:12 Any empty folders will be processed, because source and destination both support folders. For the same reason, properties defined on folders will be processed
+2024/09/17 08:36:13 Job-Command copy https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/Template/?se=2024-10-17t08%3A36%3A10z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03 C:\Users\LungaNgubane\Documents\CLIENTS\SMARTLIFE\esypay\Easypay Template 20240917 backup --output-type=json --cancel-from-stdin --overwrite=prompt --check-md5 FailIfDifferent --from-to=FileLocal --preserve-smb-info=true --recursive --log-level=INFO --trailing-dot=Enable 
+2024/09/17 08:36:13 Number of CPUs: 8
+2024/09/17 08:36:13 Max file buffer RAM 4.000 GB
+2024/09/17 08:36:13 Max concurrent network operations:  will be dynamically tuned up to 3000 (Based on auto-tuning limit. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2024/09/17 08:36:13 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2024/09/17 08:36:13 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2024/09/17 08:36:13 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2024/09/17 08:36:13 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2024/09/17 08:36:13 Max open files when downloading: 2147479959 (auto-computed)
+2024/09/17 08:36:13 Final job part has been created
+2024/09/17 08:36:13 Trying 4 concurrent connections (initial starting point)
+2024/09/17 08:36:13 Final job part has been scheduled
+2024/09/17 08:36:13 ==> REQUEST/RESPONSE (Try=1/15.9032ms, OpTime=48.1984ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate?restype=directory&se=2024-10-17T08%3A36%3A10Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [ccc76a44-c01a-0015-3edc-086345000000]
+
+2024/09/17 08:36:13 INFO: [P#0-T#3] DOWNLOADSUCCESSFUL: (folder properties) \\?\C:\Users\LungaNgubane\Documents\CLIENTS\SMARTLIFE\esypay\Easypay Template 20240917 backup\Template
+2024/09/17 08:36:13 ==> REQUEST/RESPONSE (Try=1/16.2612ms, OpTime=51.237ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2FBackup?restype=directory&se=2024-10-17T08%3A36%3A10Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [206322ba-501a-0028-36dc-08155e000000]
+
+2024/09/17 08:36:13 INFO: [P#0-T#4] DOWNLOADSUCCESSFUL: (folder properties) \\?\C:\Users\LungaNgubane\Documents\CLIENTS\SMARTLIFE\esypay\Easypay Template 20240917 backup\Template\Backup
+2024/09/17 08:36:13 ==> REQUEST/RESPONSE (Try=1/64.5734ms, OpTime=65.1287ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2FTemplate.xml?se=2024-10-17T08%3A36%3A10Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [ccc76a47-c01a-0015-3fdc-086345000000]
+
+2024/09/17 08:36:13 ==> REQUEST/RESPONSE (Try=1/39.6067ms, OpTime=72.0816ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2FBackup%2FTemplate_20240319.xml?se=2024-10-17T08%3A36%3A10Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [7c402f7b-301a-0011-11dc-08ee42000000]
+
+2024/09/17 08:36:13 ==> REQUEST/RESPONSE (Try=1/39.8597ms, OpTime=77.1327ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2FBackup%2FTemplate.xml?se=2024-10-17T08%3A36%3A10Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [4c9d3507-e01a-0002-2cdc-08ca4e000000]
+
+2024/09/17 08:36:13 ==> REQUEST/RESPONSE (Try=1/77.1327ms, OpTime=77.688ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2Fsetup.xml?se=2024-10-17T08%3A36%3A10Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [206322be-501a-0028-38dc-08155e000000]
+
+2024/09/17 08:36:13 ==> REQUEST/RESPONSE (Try=1/12.4121ms, OpTime=12.4121ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2FTemplate.xml?se=2024-10-17T08%3A36%3A10Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [ccc76a4a-c01a-0015-42dc-086345000000]
+
+2024/09/17 08:36:13 ==> REQUEST/RESPONSE (Try=1/12.4121ms, OpTime=12.4121ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2Fsetup.xml?se=2024-10-17T08%3A36%3A10Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [206322c0-501a-0028-3adc-08155e000000]
+
+2024/09/17 08:36:13 INFO: [P#0-T#5] DOWNLOADSUCCESSFUL: \\?\C:\Users\LungaNgubane\Documents\CLIENTS\SMARTLIFE\esypay\Easypay Template 20240917 backup\Template\setup.xml
+2024/09/17 08:36:13 INFO: [P#0-T#0] DOWNLOADSUCCESSFUL: \\?\C:\Users\LungaNgubane\Documents\CLIENTS\SMARTLIFE\esypay\Easypay Template 20240917 backup\Template\Template.xml
+2024/09/17 08:36:13 ==> REQUEST/RESPONSE (Try=1/13.8306ms, OpTime=13.8306ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2FBackup%2FTemplate_20240319.xml?se=2024-10-17T08%3A36%3A10Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [4c9d350a-e01a-0002-2ddc-08ca4e000000]
+
+2024/09/17 08:36:13 INFO: [P#0-T#1] DOWNLOADSUCCESSFUL: \\?\C:\Users\LungaNgubane\Documents\CLIENTS\SMARTLIFE\esypay\Easypay Template 20240917 backup\Template\Backup\Template_20240319.xml
+2024/09/17 08:36:13 ==> REQUEST/RESPONSE (Try=1/11.7198ms, OpTime=12.2244ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2FBackup%2FTemplate.xml?se=2024-10-17T08%3A36%3A10Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [7c402f7e-301a-0011-12dc-08ee42000000]
+
+2024/09/17 08:36:13 INFO: [P#0-T#2] DOWNLOADSUCCESSFUL: \\?\C:\Users\LungaNgubane\Documents\CLIENTS\SMARTLIFE\esypay\Easypay Template 20240917 backup\Template\Backup\Template.xml
+2024/09/17 08:36:13 JobID=160a6bc7-e63e-2e41-4334-a9670b1ad090, Part#=0, TransfersDone=6 of 6
+2024/09/17 08:36:13 all parts of entire Job 160a6bc7-e63e-2e41-4334-a9670b1ad090 successfully completed, cancelled or paused
+2024/09/17 08:36:13 is part of Job which 1 total number of parts done 
+2024/09/17 08:36:15 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs:  4
+2024/09/17 08:36:15 100.0 %, 6 Done, 0 Failed, 0 Pending, 0 Skipped, 6 Total, 2-sec Throughput (Mb/s): 0.4156
+2024/09/17 08:36:15 Closing Log

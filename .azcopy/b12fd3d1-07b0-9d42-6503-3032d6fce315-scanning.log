@@ -1,0 +1,13 @@
+2022/04/03 09:54:40 AzcopyVersion  10.13.0
+2022/04/03 09:54:40 OS-Environment  windows
+2022/04/03 09:54:40 OS-Architecture  amd64
+2022/04/03 09:54:40 Log times are in UTC. Local time is 3 Apr 2022 11:54:40
+2022/04/03 09:54:40 ==> REQUEST/RESPONSE (Try=1/50.0619ms, OpTime=561.0281ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/DigiAppFix%20%282%29.zip?se=2022-05-03t09%3A54%3A29z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [1e1a2dcc-801e-0014-6240-473c99000000]
+
+2022/04/03 09:54:40 ==> REQUEST/RESPONSE (Try=1/43.2089ms, OpTime=43.2089ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/DigiAppFix%20%282%29.zip?se=2022-05-03t09%3A54%3A29z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [1e1a2df7-801e-0014-0740-473c99000000]
+
+2022/04/03 09:54:56 Closing Log

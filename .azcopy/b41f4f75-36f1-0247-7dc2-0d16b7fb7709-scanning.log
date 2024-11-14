@@ -1,0 +1,23 @@
+2024/09/18 08:49:37 AzcopyVersion  10.24.0
+2024/09/18 08:49:37 OS-Environment  windows
+2024/09/18 08:49:37 OS-Architecture  amd64
+2024/09/18 08:49:37 Log times are in UTC. Local time is 18 Sep 2024 10:49:37
+2024/09/18 08:49:37 ==> REQUEST/RESPONSE (Try=1/20.44ms, OpTime=118.3354ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FError%2FEasyPay%20Insurance%20Funeral%20Plan.20240918%20101501%20%20EP-145392--%20Funeral%20Plan%20Import%20File%20Example%2035.xml?restype=directory&se=2024-10-18T08%3A49%3A35Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [a26c4ef6-601a-001c-4ba7-092696000000]
+
+2024/09/18 08:49:37 Failed to check if the destination is a folder or a file (Azure Files). Assuming the destination is a file: GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay Insurance Funeral Plan/Error/EasyPay Insurance Funeral Plan.20240918 101501  EP-145392-- Funeral Plan Import File Example 35.xml
+--------------------------------------------------------------------------------
+RESPONSE 404: 404 The specified resource does not exist.
+ERROR CODE: ResourceNotFound
+--------------------------------------------------------------------------------
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.
+RequestId:a26c4ef6-601a-001c-4ba7-092696000000
+Time:2024-09-18T08:49:38.0418086Z</Message></Error>
+--------------------------------------------------------------------------------
+
+2024/09/18 08:49:37 ==> REQUEST/RESPONSE (Try=1/13.7814ms, OpTime=13.7814ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FError%2FEasyPay%20Insurance%20Funeral%20Plan.20240918%20101501%20%20EP-145392--%20Funeral%20Plan%20Import%20File%20Example%2035.xml?se=2024-10-18T08%3A49%3A35Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [a26c4efb-601a-001c-4ea7-092696000000]
+
+2024/09/18 08:49:39 Closing Log

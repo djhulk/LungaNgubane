@@ -1,0 +1,82 @@
+2024/09/19 06:57:18 AzcopyVersion  10.24.0
+2024/09/19 06:57:18 OS-Environment  windows
+2024/09/19 06:57:18 OS-Architecture  amd64
+2024/09/19 06:57:18 Log times are in UTC. Local time is 19 Sep 2024 08:57:18
+2024/09/19 06:57:20 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2024-09-19T06:57:13Z or --include-after=2024-09-19T06:57:13Z
+2024/09/19 06:57:20 Any empty folders will be processed, because source and destination both support folders. For the same reason, properties defined on folders will be processed
+2024/09/19 06:57:20 Job-Command copy C:\Users\LungaNgubane\Documents\CLIENTS\SMARTLIFE\esypay\* https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/Template/?se=2024-10-19t06%3A57%3A18z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03 --output-type=json --cancel-from-stdin --overwrite=prompt --from-to=LocalFile --follow-symlinks --check-length=true --put-md5 --follow-symlinks --preserve-smb-info=true --disable-auto-decoding=false --recursive --list-of-files C:\Users\LUNGAN~1\AppData\Local\Temp\stg-exp-azcopy-a22bf3b1-889b-40ca-8bc8-e803f9066d33.txt --log-level=INFO --trailing-dot=Enable 
+2024/09/19 06:57:20 Number of CPUs: 8
+2024/09/19 06:57:20 Max file buffer RAM 4.000 GB
+2024/09/19 06:57:20 Max concurrent network operations:  will be dynamically tuned up to 3000 (Based on auto-tuning limit. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2024/09/19 06:57:20 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2024/09/19 06:57:20 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2024/09/19 06:57:20 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2024/09/19 06:57:20 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2024/09/19 06:57:20 Max open files when downloading: 2147479959 (auto-computed)
+2024/09/19 06:57:20 Final job part has been created
+2024/09/19 06:57:20 Trying 4 concurrent connections (initial starting point)
+2024/09/19 06:57:20 Final job part has been scheduled
+2024/09/19 06:57:20 WARN: [P#0-T#1] Block size 8388608 larger than maximum file chunk size, 4 MB chunk size used
+2024/09/19 06:57:20 INFO: [P#0-T#1] Starting transfer: Source "\\\\?\\C:\\Users\\LungaNgubane\\Documents\\CLIENTS\\SMARTLIFE\\esypay\\Template.xml" Destination "https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/Template/Template.xml". Specified chunk size 4194304
+2024/09/19 06:57:20 WARN: [P#0-T#0] Block size 8388608 larger than maximum file chunk size, 4 MB chunk size used
+2024/09/19 06:57:20 INFO: [P#0-T#0] Starting transfer: Source "\\\\?\\C:\\Users\\LungaNgubane\\Documents\\CLIENTS\\SMARTLIFE\\esypay\\setup.xml" Destination "https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/Template/setup.xml". Specified chunk size 4194304
+2024/09/19 06:57:20 ==> REQUEST/RESPONSE (Try=1/29.5437ms, OpTime=128.0969ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2Fsetup.xml?se=2024-10-19T06%3A57%3A18Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [e49d49e5-401a-000b-6961-0a8f9d000000]
+
+2024/09/19 06:57:20 ==> REQUEST/RESPONSE (Try=1/37.5173ms, OpTime=136.0705ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2FTemplate.xml?se=2024-10-19T06%3A57%3A18Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [e1a23b4c-f01a-000e-1161-0a5d46000000]
+
+2024/09/19 06:57:22 PERF: primary performance constraint is Unknown. States: X:  2, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  2, GRs:  4
+2024/09/19 06:57:22 0.0 %, 0 Done, 0 Failed, 2 Pending, 0 Skipped, 2 Total, 
+2024/09/19 06:57:24 PERF: primary performance constraint is Unknown. States: X:  2, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  2, GRs:  4
+2024/09/19 06:57:24 0.0 %, 0 Done, 0 Failed, 2 Pending, 0 Skipped, 2 Total, 
+2024/09/19 06:57:24 ==> REQUEST/RESPONSE (Try=1/21.5893ms, OpTime=21.5893ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2Fsetup.xml?se=2024-10-19T06%3A57%3A18Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [e1a23b9d-f01a-000e-4661-0a5d46000000]
+
+2024/09/19 06:57:24 ==> REQUEST/RESPONSE (Try=1/19.7353ms, OpTime=19.8102ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2FTemplate.xml?se=2024-10-19T06%3A57%3A18Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [e49d49fc-401a-000b-7861-0a8f9d000000]
+
+2024/09/19 06:57:24 ==> REQUEST/RESPONSE (Try=1/29.9132ms, OpTime=29.9132ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2Fsetup.xml?comp=range&se=2024-10-19T06%3A57%3A18Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [e49d49fd-401a-000b-7961-0a8f9d000000]
+
+2024/09/19 06:57:24 ==> REQUEST/RESPONSE (Try=1/31.3833ms, OpTime=32.4481ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2FTemplate.xml?comp=range&se=2024-10-19T06%3A57%3A18Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [e1a23b9f-f01a-000e-4861-0a5d46000000]
+
+2024/09/19 06:57:24 ==> REQUEST/RESPONSE (Try=1/22.2434ms, OpTime=22.2434ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2FTemplate.xml?comp=properties&se=2024-10-19T06%3A57%3A18Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [e1a23ba1-f01a-000e-4961-0a5d46000000]
+
+2024/09/19 06:57:24 ==> REQUEST/RESPONSE (Try=1/31.1989ms, OpTime=31.305ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2Fsetup.xml?comp=properties&se=2024-10-19T06%3A57%3A18Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [e49d49fe-401a-000b-7a61-0a8f9d000000]
+
+2024/09/19 06:57:24 ==> REQUEST/RESPONSE (Try=1/14.2794ms, OpTime=14.2794ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2FTemplate.xml?comp=properties&se=2024-10-19T06%3A57%3A18Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [e1a23ba3-f01a-000e-4b61-0a5d46000000]
+
+2024/09/19 06:57:24 ==> REQUEST/RESPONSE (Try=1/13.9855ms, OpTime=13.9855ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2Fsetup.xml?comp=properties&se=2024-10-19T06%3A57%3A18Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [e49d49ff-401a-000b-7b61-0a8f9d000000]
+
+2024/09/19 06:57:24 ==> REQUEST/RESPONSE (Try=1/18.1377ms, OpTime=18.853ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2FTemplate.xml?se=2024-10-19T06%3A57%3A18Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [e1a23ba4-f01a-000e-4c61-0a5d46000000]
+
+2024/09/19 06:57:24 INFO: [P#0-T#1] UPLOADSUCCESSFUL: https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/Template/Template.xml
+2024/09/19 06:57:24 ==> REQUEST/RESPONSE (Try=1/12.1015ms, OpTime=12.2112ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2Fsetup.xml?se=2024-10-19T06%3A57%3A18Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [e49d4a00-401a-000b-7c61-0a8f9d000000]
+
+2024/09/19 06:57:24 INFO: [P#0-T#0] UPLOADSUCCESSFUL: https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/Template/setup.xml
+2024/09/19 06:57:24 JobID=cf5580dc-e3a8-d045-5d6e-0a03386c5be0, Part#=0, TransfersDone=2 of 2
+2024/09/19 06:57:24 all parts of entire Job cf5580dc-e3a8-d045-5d6e-0a03386c5be0 successfully completed, cancelled or paused
+2024/09/19 06:57:24 is part of Job which 1 total number of parts done 
+2024/09/19 06:57:26 PERF: primary performance constraint is Unknown. States: X:  0, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  0, GRs:  4
+2024/09/19 06:57:26 100.0 %, 2 Done, 0 Failed, 0 Pending, 0 Skipped, 2 Total, 2-sec Throughput (Mb/s): 0.1456
+2024/09/19 06:57:26 Closing Log

@@ -1,0 +1,32 @@
+2024/08/08 09:58:27 AzcopyVersion  10.24.0
+2024/08/08 09:58:27 OS-Environment  windows
+2024/08/08 09:58:27 OS-Architecture  amd64
+2024/08/08 09:58:27 Log times are in UTC. Local time is 8 Aug 2024 11:58:27
+2024/08/08 09:58:28 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2024-08-08T09:58:22Z or --include-after=2024-08-08T09:58:22Z
+2024/08/08 09:58:29 Any empty folders will be processed, because source and destination both support folders. For the same reason, properties defined on folders will be processed
+2024/08/08 09:58:29 Job-Command copy C:\Users\LungaNgubane\Documents\CLIENTS\SMARTLIFE\esypay\EP-137274 -- Funeral Plan Import File Example 13.csv https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/EP-137274%20--%20Funeral%20Plan%20Import%20File%20Example%2013.csv?se=2024-09-07t09%3A58%3A27z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03 --output-type=json --cancel-from-stdin --overwrite=prompt --from-to=LocalFile --follow-symlinks --check-length=true --put-md5 --follow-symlinks --preserve-smb-info=true --disable-auto-decoding=false --recursive --log-level=INFO --trailing-dot=Enable 
+2024/08/08 09:58:29 Number of CPUs: 8
+2024/08/08 09:58:29 Max file buffer RAM 4.000 GB
+2024/08/08 09:58:29 Max concurrent network operations:  will be dynamically tuned up to 3000 (Based on auto-tuning limit. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2024/08/08 09:58:29 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2024/08/08 09:58:29 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2024/08/08 09:58:29 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2024/08/08 09:58:29 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2024/08/08 09:58:29 Max open files when downloading: 2147479959 (auto-computed)
+2024/08/08 09:58:29 Final job part has been created
+2024/08/08 09:58:29 Trying 4 concurrent connections (initial starting point)
+2024/08/08 09:58:29 Final job part has been scheduled
+2024/08/08 09:58:29 WARN: [P#0-T#0] Block size 8388608 larger than maximum file chunk size, 4 MB chunk size used
+2024/08/08 09:58:29 INFO: [P#0-T#0] Starting transfer: Source "\\\\?\\C:\\Users\\LungaNgubane\\Documents\\CLIENTS\\SMARTLIFE\\esypay\\EP-137274 -- Funeral Plan Import File Example 13.csv" Destination "https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/EP-137274%20--%20Funeral%20Plan%20Import%20File%20Example%2013.csv". Specified chunk size 4194304
+2024/08/08 09:58:29 ==> REQUEST/RESPONSE (Try=1/15.3016ms, OpTime=57.7469ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FEP-137274%20--%20Funeral%20Plan%20Import%20File%20Example%2013.csv?se=2024-09-07T09%3A58%3A27Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [03f57d04-401a-000b-4379-e98f9d000000]
+
+2024/08/08 09:58:29 ERR: [P#0-T#0] UPLOADFAILED: \\?\C:\Users\LungaNgubane\Documents\CLIENTS\SMARTLIFE\esypay\EP-137274 -- Funeral Plan Import File Example 13.csv : 000 : Couldn't open source. The process cannot access the file because it is being used by another process.
+   Dst: https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/EP-137274%20--%20Funeral%20Plan%20Import%20File%20Example%2013.csv
+2024/08/08 09:58:29 JobID=bc9cd8ab-117d-3749-5569-09dd9ae470c8, Part#=0, TransfersDone=1 of 1
+2024/08/08 09:58:29 all parts of entire Job bc9cd8ab-117d-3749-5569-09dd9ae470c8 successfully completed, cancelled or paused
+2024/08/08 09:58:29 is part of Job which 1 total number of parts done 
+2024/08/08 09:58:31 PERF: primary performance constraint is Unknown. States: X:  0, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  0, GRs:  4
+2024/08/08 09:58:31 0.0 %, 0 Done, 1 Failed, 0 Pending, 0 Skipped, 1 Total, 
+2024/08/08 09:58:31 Closing Log

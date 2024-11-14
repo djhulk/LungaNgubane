@@ -1,0 +1,13 @@
+2022/05/13 10:39:42 AzcopyVersion  10.13.0
+2022/05/13 10:39:42 OS-Environment  windows
+2022/05/13 10:39:42 OS-Architecture  amd64
+2022/05/13 10:39:42 Log times are in UTC. Local time is 13 May 2022 12:39:42
+2022/05/13 10:39:42 ==> REQUEST/RESPONSE (Try=1/46.1457ms, OpTime=284.1192ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/LLK%20RFQ109%20Soma%20Savings%20Plan_UAT%20Fixes01.zip?se=2022-06-12t10%3A39%3A40z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [a0696c71-901e-0027-69b5-666332000000]
+
+2022/05/13 10:39:42 ==> REQUEST/RESPONSE (Try=1/38.7513ms, OpTime=38.7513ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/LLK%20RFQ109%20Soma%20Savings%20Plan_UAT%20Fixes01.zip?se=2022-06-12t10%3A39%3A40z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [a0696cb1-901e-0027-22b5-666332000000]
+
+2022/05/13 10:44:55 Closing Log

@@ -1,0 +1,13 @@
+2022/06/01 13:20:45 AzcopyVersion  10.13.0
+2022/06/01 13:20:45 OS-Environment  windows
+2022/06/01 13:20:45 OS-Architecture  amd64
+2022/06/01 13:20:45 Log times are in UTC. Local time is 1 Jun 2022 15:20:45
+2022/06/01 13:20:46 ==> REQUEST/RESPONSE (Try=1/36.945ms, OpTime=222.9289ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/LLK%20Package%20230.zip?se=2022-07-01t13%3A20%3A44z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [740d4a35-801e-0014-53ba-753c99000000]
+
+2022/06/01 13:20:46 ==> REQUEST/RESPONSE (Try=1/39.1701ms, OpTime=39.1701ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/LLK%20Package%20230.zip?se=2022-07-01t13%3A20%3A44z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [740d4a55-801e-0014-6fba-753c99000000]
+
+2022/06/01 13:32:54 Closing Log

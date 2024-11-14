@@ -1,0 +1,9 @@
+2024/08/20 07:27:35 AzcopyVersion  10.24.0
+2024/08/20 07:27:35 OS-Environment  windows
+2024/08/20 07:27:35 OS-Architecture  amd64
+2024/08/20 07:27:35 Log times are in UTC. Local time is 20 Aug 2024 09:27:35
+2024/08/20 07:27:35 ==> REQUEST/RESPONSE (Try=1/16.5627ms, OpTime=101.7045ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FEP-137274%20--%20Funeral%20Plan%20Import%20File%20Example%2017.csv?se=2024-09-19T07%3A27%3A33Z&sig=-REDACTED-&sp=rwdl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [21922859-901a-0018-1fd2-f2ab91000000]
+
+2024/08/20 07:27:37 Closing Log

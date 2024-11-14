@@ -1,0 +1,13 @@
+2022/04/07 08:40:30 AzcopyVersion  10.13.0
+2022/04/07 08:40:30 OS-Environment  windows
+2022/04/07 08:40:30 OS-Architecture  amd64
+2022/04/07 08:40:30 Log times are in UTC. Local time is 7 Apr 2022 10:40:30
+2022/04/07 08:40:30 ==> REQUEST/RESPONSE (Try=1/74.2244ms, OpTime=436.5097ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/Package%20101.zip?se=2022-05-07t08%3A40%3A27z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [1fafaf87-301e-0011-2e5b-4aee42000000]
+
+2022/04/07 08:40:30 ==> REQUEST/RESPONSE (Try=1/66.6585ms, OpTime=66.6585ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/Package%20101.zip?se=2022-05-07t08%3A40%3A27z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [1fafafe6-301e-0011-075b-4aee42000000]
+
+2022/04/07 08:40:32 Closing Log

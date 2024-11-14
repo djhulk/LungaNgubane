@@ -1,0 +1,31 @@
+2022/01/21 12:11:02 AzcopyVersion  10.13.0
+2022/01/21 12:11:02 OS-Environment  windows
+2022/01/21 12:11:02 OS-Architecture  amd64
+2022/01/21 12:11:02 Log times are in UTC. Local time is 21 Jan 2022 14:11:02
+2022/01/21 12:11:02 Job-Command copy https://silverbridge.blob.core.windows.net/releases/Independent_Tools/RulesGuru/RulesGuru_Azure.msi?se=2022-02-20t12%3A11%3A01z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02 C:\Users\LungaNgubane\Downloads\RulesGuru_Azure.msi --output-type=json --cancel-from-stdin --overwrite=prompt --check-md5 FailIfDifferent --from-to=BlobLocal --recursive --log-level=INFO 
+2022/01/21 12:11:02 Number of CPUs: 8
+2022/01/21 12:11:02 Max file buffer RAM 4.000 GB
+2022/01/21 12:11:02 Max concurrent network operations: 128 (Based on number of CPUs. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2022/01/21 12:11:02 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2022/01/21 12:11:02 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2022/01/21 12:11:02 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2022/01/21 12:11:02 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2022/01/21 12:11:02 Max open files when downloading: 2147483119 (auto-computed)
+2022/01/21 12:11:02 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2022-01-21T12:10:56Z or --include-after=2022-01-21T12:10:56Z
+2022/01/21 12:11:02 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2022/01/21 12:11:02 Final job part has been created
+2022/01/21 12:11:02 JobID=2450e560-bbb6-5043-7267-226924428462, credential type: Anonymous
+2022/01/21 12:11:02 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs: 54
+2022/01/21 12:11:02 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2022/01/21 12:11:02 scheduling JobID=2450e560-bbb6-5043-7267-226924428462, Part#=0, Transfer#=0, priority=0
+2022/01/21 12:11:02 Final job part has been scheduled
+2022/01/21 12:11:02 INFO: [P#0-T#0] has worker 42 which is processing TRANSFER 0
+2022/01/21 12:11:02 ==> REQUEST/RESPONSE (Try=1/117.6149ms, OpTime=219.8228ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://silverbridge.blob.core.windows.net/releases/Independent_Tools/RulesGuru/RulesGuru_Azure.msi?se=2022-02-20t12%3A11%3A01z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [c7e7f164-c01e-0005-79bf-0ea62d000000]
+
+2022/01/21 12:11:03 INFO: [P#0-T#0] DOWNLOADSUCCESSFUL: \\?\C:\Users\LungaNgubane\Downloads\RulesGuru_Azure.msi
+2022/01/21 12:11:03 JobID=2450e560-bbb6-5043-7267-226924428462, Part#=0, TransfersDone=1 of 1
+2022/01/21 12:11:03 all parts of entire Job 2450e560-bbb6-5043-7267-226924428462 successfully completed, cancelled or paused
+2022/01/21 12:11:03 is part of Job which 1 total number of parts done 
+2022/01/21 12:11:04 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs: 128

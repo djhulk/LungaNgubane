@@ -1,0 +1,29 @@
+2024/08/20 11:26:59 AzcopyVersion  10.24.0
+2024/08/20 11:26:59 OS-Environment  windows
+2024/08/20 11:26:59 OS-Architecture  amd64
+2024/08/20 11:26:59 Log times are in UTC. Local time is 20 Aug 2024 13:26:59
+2024/08/20 11:27:01 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2024-08-20T11:26:54Z or --include-after=2024-08-20T11:26:54Z
+2024/08/20 11:27:01 Any empty folders will be processed, because deletion is from a folder-aware location
+2024/08/20 11:27:01 Job-Command remove https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/EP-137274%20--%20Funeral%20Plan%20Import%20File%20Example%2022.csv?se=2024-09-19t11%3A26%3A59z&sig=-REDACTED-&sp=rwdl&sr=s&sv=2023-11-03 --output-type=json --cancel-from-stdin --from-to=FileTrash --recursive --log-level=INFO --trailing-dot=Enable 
+2024/08/20 11:27:01 Number of CPUs: 8
+2024/08/20 11:27:01 Max file buffer RAM 4.000 GB
+2024/08/20 11:27:01 Max concurrent network operations:  will be dynamically tuned up to 3000 (Based on auto-tuning limit. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2024/08/20 11:27:01 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2024/08/20 11:27:01 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2024/08/20 11:27:01 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2024/08/20 11:27:01 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2024/08/20 11:27:01 Max open files when downloading: 2147479959 (auto-computed)
+2024/08/20 11:27:01 Trying 4 concurrent connections (initial starting point)
+2024/08/20 11:27:01 Final job part has been scheduled
+2024/08/20 11:27:01 Final job part has been created
+2024/08/20 11:27:01 ==> REQUEST/RESPONSE (Try=1/18.5075ms, OpTime=55.6339ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   DELETE https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FEP-137274%20--%20Funeral%20Plan%20Import%20File%20Example%2022.csv?se=2024-09-19T11%3A26%3A59Z&sig=-REDACTED-&sp=rwdl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [c0fc8043-901a-0027-18f3-f26332000000]
+
+2024/08/20 11:27:01 INFO: [P#0-T#0] DELETE SUCCESSFUL: 
+2024/08/20 11:27:01 JobID=24ee36c5-0ae9-134d-5e7f-15bcdd3a8705, Part#=0, TransfersDone=1 of 1
+2024/08/20 11:27:01 all parts of entire Job 24ee36c5-0ae9-134d-5e7f-15bcdd3a8705 successfully completed, cancelled or paused
+2024/08/20 11:27:01 is part of Job which 1 total number of parts done 
+2024/08/20 11:27:03 PERF: primary performance constraint is Unknown. States: T:  0, GRs:  4
+2024/08/20 11:27:03 100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 
+2024/08/20 11:27:03 Closing Log

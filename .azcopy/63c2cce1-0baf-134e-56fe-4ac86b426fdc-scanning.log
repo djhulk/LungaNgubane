@@ -1,0 +1,23 @@
+2024/09/18 12:03:17 AzcopyVersion  10.24.0
+2024/09/18 12:03:17 OS-Environment  windows
+2024/09/18 12:03:17 OS-Architecture  amd64
+2024/09/18 12:03:17 Log times are in UTC. Local time is 18 Sep 2024 14:03:17
+2024/09/18 12:03:17 ==> REQUEST/RESPONSE (Try=1/18.2556ms, OpTime=101.6998ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FError%2FEasyPay%20Insurance%20Funeral%20Plan.20240918%20114822%20%20SmartLife_20240901_6_1.xml?restype=directory&se=2024-10-18T12%3A03%3A15Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [c3aabe21-101a-0006-4ac2-094749000000]
+
+2024/09/18 12:03:17 Failed to check if the destination is a folder or a file (Azure Files). Assuming the destination is a file: GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay Insurance Funeral Plan/Error/EasyPay Insurance Funeral Plan.20240918 114822  SmartLife_20240901_6_1.xml
+--------------------------------------------------------------------------------
+RESPONSE 404: 404 The specified resource does not exist.
+ERROR CODE: ResourceNotFound
+--------------------------------------------------------------------------------
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.
+RequestId:c3aabe21-101a-0006-4ac2-094749000000
+Time:2024-09-18T12:03:17.5215514Z</Message></Error>
+--------------------------------------------------------------------------------
+
+2024/09/18 12:03:17 ==> REQUEST/RESPONSE (Try=1/13.0679ms, OpTime=13.0679ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FError%2FEasyPay%20Insurance%20Funeral%20Plan.20240918%20114822%20%20SmartLife_20240901_6_1.xml?se=2024-10-18T12%3A03%3A15Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [c3aabe24-101a-0006-4bc2-094749000000]
+
+2024/09/18 12:03:19 Closing Log

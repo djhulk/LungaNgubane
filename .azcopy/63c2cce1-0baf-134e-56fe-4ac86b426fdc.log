@@ -1,0 +1,34 @@
+2024/09/18 12:03:15 AzcopyVersion  10.24.0
+2024/09/18 12:03:15 OS-Environment  windows
+2024/09/18 12:03:15 OS-Architecture  amd64
+2024/09/18 12:03:15 Log times are in UTC. Local time is 18 Sep 2024 14:03:15
+2024/09/18 12:03:17 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2024-09-18T12:03:10Z or --include-after=2024-09-18T12:03:10Z
+2024/09/18 12:03:17 Any empty folders will be processed, because source and destination both support folders. For the same reason, properties defined on folders will be processed
+2024/09/18 12:03:17 Job-Command copy https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/Error/EasyPay%20Insurance%20Funeral%20Plan.20240918%20114822%20%20SmartLife_20240901_6_1.xml?se=2024-10-18t12%3A03%3A15z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03 C:\Users\LUNGAN~1\AppData\Local\Temp\17266609955932\EasyPay Insurance Funeral Plan.20240918 114822  SmartLife_20240901_6_1.xml --output-type=json --cancel-from-stdin --overwrite=prompt --check-md5 FailIfDifferent --from-to=FileLocal --preserve-smb-info=true --recursive --log-level=INFO --trailing-dot=Enable 
+2024/09/18 12:03:17 Number of CPUs: 8
+2024/09/18 12:03:17 Max file buffer RAM 4.000 GB
+2024/09/18 12:03:17 Max concurrent network operations:  will be dynamically tuned up to 3000 (Based on auto-tuning limit. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2024/09/18 12:03:17 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2024/09/18 12:03:17 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2024/09/18 12:03:17 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2024/09/18 12:03:17 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2024/09/18 12:03:17 Max open files when downloading: 2147479959 (auto-computed)
+2024/09/18 12:03:17 Final job part has been created
+2024/09/18 12:03:17 Trying 4 concurrent connections (initial starting point)
+2024/09/18 12:03:17 Final job part has been scheduled
+2024/09/18 12:03:17 ==> REQUEST/RESPONSE (Try=1/35.3989ms, OpTime=69.8191ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FError%2FEasyPay%20Insurance%20Funeral%20Plan.20240918%20114822%20%20SmartLife_20240901_6_1.xml?se=2024-10-18T12%3A03%3A15Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [5ba394fc-201a-000d-58c2-09bc22000000]
+
+2024/09/18 12:03:17 WARN: [P#0-T#0] https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/Error/EasyPay%20Insurance%20Funeral%20Plan.20240918%20114822%20%20SmartLife_20240901_6_1.xml no MD5 was stored in the Blob/File service against this file. So the downloaded data cannot be MD5-validated. Dst: \\?\C:\Users\LUNGAN~1\AppData\Local\Temp\17266609955932\EasyPay Insurance Funeral Plan.20240918 114822  SmartLife_20240901_6_1.xml
+2024/09/18 12:03:17 ==> REQUEST/RESPONSE (Try=1/12.6245ms, OpTime=13.2408ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FError%2FEasyPay%20Insurance%20Funeral%20Plan.20240918%20114822%20%20SmartLife_20240901_6_1.xml?se=2024-10-18T12%3A03%3A15Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [5ba394ff-201a-000d-59c2-09bc22000000]
+
+2024/09/18 12:03:17 INFO: [P#0-T#0] DOWNLOADSUCCESSFUL: \\?\C:\Users\LUNGAN~1\AppData\Local\Temp\17266609955932\EasyPay Insurance Funeral Plan.20240918 114822  SmartLife_20240901_6_1.xml
+2024/09/18 12:03:17 JobID=63c2cce1-0baf-134e-56fe-4ac86b426fdc, Part#=0, TransfersDone=1 of 1
+2024/09/18 12:03:17 all parts of entire Job 63c2cce1-0baf-134e-56fe-4ac86b426fdc successfully completed, cancelled or paused
+2024/09/18 12:03:17 is part of Job which 1 total number of parts done 
+2024/09/18 12:03:19 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs:  4
+2024/09/18 12:03:19 100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.2116
+2024/09/18 12:03:19 Closing Log

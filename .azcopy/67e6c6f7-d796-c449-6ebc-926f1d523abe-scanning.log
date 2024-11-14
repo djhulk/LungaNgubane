@@ -1,0 +1,23 @@
+2024/08/12 10:46:40 AzcopyVersion  10.24.0
+2024/08/12 10:46:40 OS-Environment  windows
+2024/08/12 10:46:40 OS-Architecture  amd64
+2024/08/12 10:46:40 Log times are in UTC. Local time is 12 Aug 2024 12:46:40
+2024/08/12 10:46:41 ==> REQUEST/RESPONSE (Try=1/33.1418ms, OpTime=232.9229ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2FTemplate.xml?restype=directory&se=2024-09-11T10%3A46%3A38Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [0ba15fbd-401a-0024-63a4-ec8256000000]
+
+2024/08/12 10:46:41 Failed to check if the destination is a folder or a file (Azure Files). Assuming the destination is a file: GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay Insurance Funeral Plan/Template/Template.xml
+--------------------------------------------------------------------------------
+RESPONSE 404: 404 The specified resource does not exist.
+ERROR CODE: ResourceNotFound
+--------------------------------------------------------------------------------
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.
+RequestId:0ba15fbd-401a-0024-63a4-ec8256000000
+Time:2024-08-12T10:46:38.5507645Z</Message></Error>
+--------------------------------------------------------------------------------
+
+2024/08/12 10:46:41 ==> REQUEST/RESPONSE (Try=1/13.6457ms, OpTime=14.2348ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2FTemplate.xml?se=2024-09-11T10%3A46%3A38Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [0ba15fc0-401a-0024-64a4-ec8256000000]
+
+2024/08/12 10:46:47 Closing Log

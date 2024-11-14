@@ -1,0 +1,51 @@
+2024/09/23 09:29:33 AzcopyVersion  10.24.0
+2024/09/23 09:29:33 OS-Environment  windows
+2024/09/23 09:29:33 OS-Architecture  amd64
+2024/09/23 09:29:33 Log times are in UTC. Local time is 23 Sep 2024 11:29:33
+2024/09/23 09:29:34 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2024-09-23T09:29:28Z or --include-after=2024-09-23T09:29:28Z
+2024/09/23 09:29:34 Any empty folders will be processed, because source and destination both support folders. For the same reason, properties defined on folders will be processed
+2024/09/23 09:29:34 Job-Command copy C:\Users\LungaNgubane\Documents\CLIENTS\SMARTLIFE\esypay\EP-145392-- Funeral Plan Import File Example L72.csv https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/EP-145392--%20Funeral%20Plan%20Import%20File%20Example%20L72.csv?se=2024-10-23t09%3A29%3A33z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03 --output-type=json --cancel-from-stdin --overwrite=prompt --from-to=LocalFile --follow-symlinks --check-length=true --put-md5 --follow-symlinks --preserve-smb-info=true --disable-auto-decoding=false --recursive --log-level=INFO --trailing-dot=Enable 
+2024/09/23 09:29:34 Number of CPUs: 8
+2024/09/23 09:29:34 Max file buffer RAM 4.000 GB
+2024/09/23 09:29:34 Max concurrent network operations:  will be dynamically tuned up to 3000 (Based on auto-tuning limit. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2024/09/23 09:29:34 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2024/09/23 09:29:34 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2024/09/23 09:29:34 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2024/09/23 09:29:34 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2024/09/23 09:29:34 Max open files when downloading: 2147479959 (auto-computed)
+2024/09/23 09:29:34 Final job part has been created
+2024/09/23 09:29:34 Trying 4 concurrent connections (initial starting point)
+2024/09/23 09:29:34 Final job part has been scheduled
+2024/09/23 09:29:35 WARN: [P#0-T#0] Block size 8388608 larger than maximum file chunk size, 4 MB chunk size used
+2024/09/23 09:29:35 INFO: [P#0-T#0] Starting transfer: Source "\\\\?\\C:\\Users\\LungaNgubane\\Documents\\CLIENTS\\SMARTLIFE\\esypay\\EP-145392-- Funeral Plan Import File Example L72.csv" Destination "https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/EP-145392--%20Funeral%20Plan%20Import%20File%20Example%20L72.csv". Specified chunk size 4194304
+2024/09/23 09:29:35 ==> REQUEST/RESPONSE (Try=1/15.8018ms, OpTime=49.7869ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FEP-145392--%20Funeral%20Plan%20Import%20File%20Example%20L72.csv?se=2024-10-23T09%3A29%3A33Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [92423e96-d01a-0026-029b-0d3cee000000]
+
+2024/09/23 09:29:35 ==> REQUEST/RESPONSE (Try=1/39.0497ms, OpTime=39.0497ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FEP-145392--%20Funeral%20Plan%20Import%20File%20Example%20L72.csv?se=2024-10-23T09%3A29%3A33Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [92423e99-d01a-0026-039b-0d3cee000000]
+
+2024/09/23 09:29:35 ==> REQUEST/RESPONSE (Try=1/21.4361ms, OpTime=21.9728ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FEP-145392--%20Funeral%20Plan%20Import%20File%20Example%20L72.csv?comp=range&se=2024-10-23T09%3A29%3A33Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [92423e9b-d01a-0026-049b-0d3cee000000]
+
+2024/09/23 09:29:35 ==> REQUEST/RESPONSE (Try=1/16.2562ms, OpTime=16.2562ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FEP-145392--%20Funeral%20Plan%20Import%20File%20Example%20L72.csv?comp=properties&se=2024-10-23T09%3A29%3A33Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [92423e9d-d01a-0026-059b-0d3cee000000]
+
+2024/09/23 09:29:35 ==> REQUEST/RESPONSE (Try=1/14.5799ms, OpTime=14.5799ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FEP-145392--%20Funeral%20Plan%20Import%20File%20Example%20L72.csv?comp=properties&se=2024-10-23T09%3A29%3A33Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [92423e9e-d01a-0026-069b-0d3cee000000]
+
+2024/09/23 09:29:35 ==> REQUEST/RESPONSE (Try=1/14.0847ms, OpTime=14.705ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FEP-145392--%20Funeral%20Plan%20Import%20File%20Example%20L72.csv?se=2024-10-23T09%3A29%3A33Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [92423e9f-d01a-0026-079b-0d3cee000000]
+
+2024/09/23 09:29:35 INFO: [P#0-T#0] UPLOADSUCCESSFUL: https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/EP-145392--%20Funeral%20Plan%20Import%20File%20Example%20L72.csv
+2024/09/23 09:29:35 JobID=a1833293-df6f-e649-4d6c-ab587696738f, Part#=0, TransfersDone=1 of 1
+2024/09/23 09:29:35 all parts of entire Job a1833293-df6f-e649-4d6c-ab587696738f successfully completed, cancelled or paused
+2024/09/23 09:29:35 is part of Job which 1 total number of parts done 
+2024/09/23 09:29:37 PERF: primary performance constraint is Unknown. States: X:  0, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  0, GRs:  4
+2024/09/23 09:29:37 100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.0172
+2024/09/23 09:29:37 Closing Log

@@ -1,0 +1,19 @@
+2024/09/18 11:48:44 AzcopyVersion  10.24.0
+2024/09/18 11:48:44 OS-Environment  windows
+2024/09/18 11:48:44 OS-Architecture  amd64
+2024/09/18 11:48:44 Log times are in UTC. Local time is 18 Sep 2024 13:48:44
+2024/09/18 11:48:44 ==> REQUEST/RESPONSE (Try=1/19.9807ms, OpTime=116.0522ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FEP-145392--%20Funeral%20Plan%20Import%20File%20Example%20L63.csv?restype=directory&se=2024-10-18T11%3A48%3A42Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [f9fb36dd-b01a-0030-42c0-09ca39000000]
+
+2024/09/18 11:48:44 Failed to check if the destination is a folder or a file (Azure Files). Assuming the destination is a file: GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay Insurance Funeral Plan/EP-145392-- Funeral Plan Import File Example L63.csv
+--------------------------------------------------------------------------------
+RESPONSE 404: 404 The specified resource does not exist.
+ERROR CODE: ResourceNotFound
+--------------------------------------------------------------------------------
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.
+RequestId:f9fb36dd-b01a-0030-42c0-09ca39000000
+Time:2024-09-18T11:48:44.6848681Z</Message></Error>
+--------------------------------------------------------------------------------
+
+2024/09/18 11:48:46 Closing Log

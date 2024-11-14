@@ -1,0 +1,33 @@
+2024/09/19 08:18:25 AzcopyVersion  10.24.0
+2024/09/19 08:18:25 OS-Environment  windows
+2024/09/19 08:18:25 OS-Architecture  amd64
+2024/09/19 08:18:25 Log times are in UTC. Local time is 19 Sep 2024 10:18:25
+2024/09/19 08:18:27 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2024-09-19T08:18:20Z or --include-after=2024-09-19T08:18:20Z
+2024/09/19 08:18:27 Any empty folders will be processed, because source and destination both support folders. For the same reason, properties defined on folders will be processed
+2024/09/19 08:18:27 Job-Command copy https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/Archive/EP-145392--%20Funeral%20Plan%20Import%20File%20Example%20L67.csv?se=2024-10-19t08%3A18%3A25z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03 C:\Users\LUNGAN~1\AppData\Local\Temp\17267339055566\EP-145392-- Funeral Plan Import File Example L67.csv --output-type=json --cancel-from-stdin --overwrite=prompt --check-md5 FailIfDifferent --from-to=FileLocal --preserve-smb-info=true --recursive --log-level=INFO --trailing-dot=Enable 
+2024/09/19 08:18:27 Number of CPUs: 8
+2024/09/19 08:18:27 Max file buffer RAM 4.000 GB
+2024/09/19 08:18:27 Max concurrent network operations:  will be dynamically tuned up to 3000 (Based on auto-tuning limit. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2024/09/19 08:18:27 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2024/09/19 08:18:27 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2024/09/19 08:18:27 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2024/09/19 08:18:27 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2024/09/19 08:18:27 Max open files when downloading: 2147479959 (auto-computed)
+2024/09/19 08:18:27 Final job part has been created
+2024/09/19 08:18:27 Trying 4 concurrent connections (initial starting point)
+2024/09/19 08:18:27 Final job part has been scheduled
+2024/09/19 08:18:27 ==> REQUEST/RESPONSE (Try=1/22.6801ms, OpTime=60.9199ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FArchive%2FEP-145392--%20Funeral%20Plan%20Import%20File%20Example%20L67.csv?se=2024-10-19T08%3A18%3A25Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [5e231177-e01a-0012-266c-0a0f26000000]
+
+2024/09/19 08:18:27 ==> REQUEST/RESPONSE (Try=1/14.6453ms, OpTime=14.6453ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FArchive%2FEP-145392--%20Funeral%20Plan%20Import%20File%20Example%20L67.csv?se=2024-10-19T08%3A18%3A25Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [5e23117a-e01a-0012-276c-0a0f26000000]
+
+2024/09/19 08:18:27 INFO: [P#0-T#0] DOWNLOADSUCCESSFUL: \\?\C:\Users\LUNGAN~1\AppData\Local\Temp\17267339055566\EP-145392-- Funeral Plan Import File Example L67.csv
+2024/09/19 08:18:27 JobID=8ced4db2-8c04-ec41-40e2-2658ba493bc4, Part#=0, TransfersDone=1 of 1
+2024/09/19 08:18:27 all parts of entire Job 8ced4db2-8c04-ec41-40e2-2658ba493bc4 successfully completed, cancelled or paused
+2024/09/19 08:18:27 is part of Job which 1 total number of parts done 
+2024/09/19 08:18:29 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs:  4
+2024/09/19 08:18:29 100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.0173
+2024/09/19 08:18:29 Closing Log

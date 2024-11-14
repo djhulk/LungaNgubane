@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Blazored.TextEditor</id>
+    <version>1.0.3</version>
+    <authors>Michael Washington</authors>
+    <owners>Michael Washington</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/Blazored/TextEditor</projectUrl>
+    <iconUrl>https://avatars1.githubusercontent.com/u/39194025</iconUrl>
+    <description>Rich text editor for Blazor applications - Uses Quill JS</description>
+    <releaseNotes>Allows images to be resized</releaseNotes>
+    <copyright>Copyright 2019 (c) Michael Washington. All rights reserved.</copyright>
+    <tags>Blazor Rich Text Editor Quill QuillJS Blazored Razor Components</tags>
+    <repository url="https://github.com/Blazored/TextEditor" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.AspNetCore.Components" version="3.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Components.Web" version="3.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,13 @@
+2023/01/27 08:56:09 AzcopyVersion  10.13.0
+2023/01/27 08:56:09 OS-Environment  windows
+2023/01/27 08:56:09 OS-Architecture  amd64
+2023/01/27 08:56:09 Log times are in UTC. Local time is 27 Jan 2023 10:56:09
+2023/01/27 08:56:09 ==> REQUEST/RESPONSE (Try=1/14.6347ms, OpTime=188.6013ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://silverbridge.blob.core.windows.net/releases/Independent_Tools/RulesGuru/RulesGuru_Azure.msi?se=2023-02-26t08%3A56%3A08z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [9f5bca3d-201e-0022-2f2d-32b1e9000000]
+
+2023/01/27 08:56:09 ==> REQUEST/RESPONSE (Try=1/8.3338ms, OpTime=8.3338ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://silverbridge.blob.core.windows.net/releases/Independent_Tools/RulesGuru/RulesGuru_Azure.msi?se=2023-02-26t08%3A56%3A08z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [9f5bca4d-201e-0022-3c2d-32b1e9000000]
+
+2023/01/27 08:56:11 Closing Log

@@ -1,0 +1,10 @@
+[user]
+	name = lunga.ngubane
+	email = lunga.ngubane@alulatechnologies.com
+[credential]
+	helper = 
+	helper = manager
+[credential "https://dev.azure.com"]
+	usehttppath = true
+[safe]
+	directory = C:/Users/LungaNgubane

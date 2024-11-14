@@ -1,0 +1,40 @@
+2022/05/11 08:19:52 AzcopyVersion  10.13.0
+2022/05/11 08:19:52 OS-Environment  windows
+2022/05/11 08:19:52 OS-Architecture  amd64
+2022/05/11 08:19:52 Log times are in UTC. Local time is 11 May 2022 10:19:52
+2022/05/11 08:19:52 Job-Command copy C:\Users\LungaNgubane\Desktop\Deployments\LIBERTY KENYA (LLK)\LLK RFQ109 Soma Savings Plan Product Changes\LLK RFQ109 Soma Savings Plan Product Changes.zip https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/LLK%20RFQ109%20Soma%20Savings%20Plan%20Product%20Changes.zip?se=2022-06-10t08%3A19%3A50z&sig=-REDACTED-&sp=rwl&sr=c&sv=2020-10-02 --output-type=json --cancel-from-stdin --overwrite=prompt --from-to=LocalBlob --blob-type Detect --follow-symlinks --put-md5 --follow-symlinks --disable-auto-decoding=false --recursive --log-level=INFO 
+2022/05/11 08:19:52 Number of CPUs: 8
+2022/05/11 08:19:52 Max file buffer RAM 4.000 GB
+2022/05/11 08:19:52 Max concurrent network operations: 128 (Based on number of CPUs. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2022/05/11 08:19:52 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2022/05/11 08:19:52 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2022/05/11 08:19:52 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2022/05/11 08:19:52 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2022/05/11 08:19:52 Max open files when downloading: 2147483119 (auto-computed)
+2022/05/11 08:19:52 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2022-05-11T08:19:47Z or --include-after=2022-05-11T08:19:47Z
+2022/05/11 08:19:52 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2022/05/11 08:19:52 JobID=a4621f5a-1202-aa4d-4539-5eeaf3a2aa35, credential type: Anonymous
+2022/05/11 08:19:52 scheduling JobID=a4621f5a-1202-aa4d-4539-5eeaf3a2aa35, Part#=0, Transfer#=0, priority=0
+2022/05/11 08:19:52 Final job part has been scheduled
+2022/05/11 08:19:52 Final job part has been created
+2022/05/11 08:19:52 PERF: primary performance constraint is Unknown. States: X:  0, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  0, GRs: 128
+2022/05/11 08:19:52 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2022/05/11 08:19:52 INFO: [P#0-T#0] has worker 22 which is processing TRANSFER 0
+2022/05/11 08:19:52 INFO: [P#0-T#0] Starting transfer: Source "\\\\?\\C:\\Users\\LungaNgubane\\Desktop\\Deployments\\LIBERTY KENYA (LLK)\\LLK RFQ109 Soma Savings Plan Product Changes\\LLK RFQ109 Soma Savings Plan Product Changes.zip" Destination "https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/LLK%20RFQ109%20Soma%20Savings%20Plan%20Product%20Changes.zip?se=2022-06-10t08%3A19%3A50z&sig=-REDACTED-&sp=rwl&sr=c&sv=2020-10-02". Specified chunk size 8388608
+2022/05/11 08:19:52 ==> REQUEST/RESPONSE (Try=1/51.6399ms, OpTime=388.1665ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/LLK%20RFQ109%20Soma%20Savings%20Plan%20Product%20Changes.zip?se=2022-06-10t08%3A19%3A50z&sig=-REDACTED-&sp=rwl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [38ed1ee6-101e-0006-610f-654749000000]
+
+2022/05/11 08:19:52 ==> REQUEST/RESPONSE (Try=1/99.7257ms, OpTime=101.2789ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/LLK%20RFQ109%20Soma%20Savings%20Plan%20Product%20Changes.zip?se=2022-06-10t08%3A19%3A50z&sig=-REDACTED-&sp=rwl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [38ed1f6e-101e-0006-5d0f-654749000000]
+
+2022/05/11 08:19:52 ==> REQUEST/RESPONSE (Try=1/36.688ms, OpTime=36.688ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/LLK%20RFQ109%20Soma%20Savings%20Plan%20Product%20Changes.zip?se=2022-06-10t08%3A19%3A50z&sig=-REDACTED-&sp=rwl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [38ed1fba-101e-0006-240f-654749000000]
+
+2022/05/11 08:19:52 INFO: [P#0-T#0] UPLOADSUCCESSFUL: https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/LLK%20RFQ109%20Soma%20Savings%20Plan%20Product%20Changes.zip
+2022/05/11 08:19:52 JobID=a4621f5a-1202-aa4d-4539-5eeaf3a2aa35, Part#=0, TransfersDone=1 of 1
+2022/05/11 08:19:52 all parts of entire Job a4621f5a-1202-aa4d-4539-5eeaf3a2aa35 successfully completed, cancelled or paused
+2022/05/11 08:19:52 is part of Job which 1 total number of parts done 
+2022/05/11 08:19:54 PERF: primary performance constraint is Unknown. States: X:  0, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  0, GRs: 128

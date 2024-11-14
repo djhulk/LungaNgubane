@@ -1,0 +1,31 @@
+2022/04/07 08:40:30 AzcopyVersion  10.13.0
+2022/04/07 08:40:30 OS-Environment  windows
+2022/04/07 08:40:30 OS-Architecture  amd64
+2022/04/07 08:40:30 Log times are in UTC. Local time is 7 Apr 2022 10:40:30
+2022/04/07 08:40:30 Job-Command copy https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/Package%20101.zip?se=2022-05-07t08%3A40%3A27z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02 C:\Users\LUNGAN~1\AppData\Local\Temp\16493208270910\Package 101.zip --output-type=json --cancel-from-stdin --overwrite=prompt --check-md5 FailIfDifferent --from-to=BlobLocal --blob-type BlockBlob --recursive --log-level=INFO 
+2022/04/07 08:40:30 Number of CPUs: 8
+2022/04/07 08:40:30 Max file buffer RAM 4.000 GB
+2022/04/07 08:40:30 Max concurrent network operations: 128 (Based on number of CPUs. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2022/04/07 08:40:30 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2022/04/07 08:40:30 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2022/04/07 08:40:30 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2022/04/07 08:40:30 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2022/04/07 08:40:30 Max open files when downloading: 2147483119 (auto-computed)
+2022/04/07 08:40:30 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2022-04-07T08:40:25Z or --include-after=2022-04-07T08:40:25Z
+2022/04/07 08:40:30 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2022/04/07 08:40:30 JobID=a67fff1f-f205-8443-5ac4-19e87f8b87b8, credential type: Anonymous
+2022/04/07 08:40:30 scheduling JobID=a67fff1f-f205-8443-5ac4-19e87f8b87b8, Part#=0, Transfer#=0, priority=0
+2022/04/07 08:40:30 Final job part has been scheduled
+2022/04/07 08:40:30 Final job part has been created
+2022/04/07 08:40:30 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs: 88
+2022/04/07 08:40:30 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2022/04/07 08:40:30 INFO: [P#0-T#0] has worker 13 which is processing TRANSFER 0
+2022/04/07 08:40:31 ==> REQUEST/RESPONSE (Try=1/71.7525ms, OpTime=302.4121ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/Package%20101.zip?se=2022-05-07t08%3A40%3A27z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [1f7dba11-b01e-0020-615b-4a0f51000000]
+
+2022/04/07 08:40:31 INFO: [P#0-T#0] DOWNLOADSUCCESSFUL: \\?\C:\Users\LUNGAN~1\AppData\Local\Temp\16493208270910\Package 101.zip
+2022/04/07 08:40:31 JobID=a67fff1f-f205-8443-5ac4-19e87f8b87b8, Part#=0, TransfersDone=1 of 1
+2022/04/07 08:40:31 all parts of entire Job a67fff1f-f205-8443-5ac4-19e87f8b87b8 successfully completed, cancelled or paused
+2022/04/07 08:40:31 is part of Job which 1 total number of parts done 
+2022/04/07 08:40:32 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs: 128

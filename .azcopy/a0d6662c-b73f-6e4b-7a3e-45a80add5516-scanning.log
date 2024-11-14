@@ -1,0 +1,13 @@
+2024/08/01 09:02:43 AzcopyVersion  10.13.0
+2024/08/01 09:02:43 OS-Environment  windows
+2024/08/01 09:02:43 OS-Architecture  amd64
+2024/08/01 09:02:43 Log times are in UTC. Local time is 1 Aug 2024 11:02:43
+2024/08/01 09:02:43 ==> REQUEST/RESPONSE (Try=1/19.944ms, OpTime=224.5563ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/Template/setup.xml?restype=directory&se=2024-08-31t09%3A02%3A41z&sig=-REDACTED-&sp=rl&sr=s&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [aa7a6fe9-201a-0022-3df1-e3b1e9000000]
+
+2024/08/01 09:02:43 ==> REQUEST/RESPONSE (Try=1/19.493ms, OpTime=19.493ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/Template/setup.xml?se=2024-08-31t09%3A02%3A41z&sig=-REDACTED-&sp=rl&sr=s&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [aa7a6fec-201a-0022-3ef1-e3b1e9000000]
+
+2024/08/01 09:02:46 Closing Log

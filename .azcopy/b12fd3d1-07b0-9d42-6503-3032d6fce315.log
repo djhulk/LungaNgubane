@@ -1,0 +1,79 @@
+2022/04/03 09:54:40 AzcopyVersion  10.13.0
+2022/04/03 09:54:40 OS-Environment  windows
+2022/04/03 09:54:40 OS-Architecture  amd64
+2022/04/03 09:54:40 Log times are in UTC. Local time is 3 Apr 2022 11:54:40
+2022/04/03 09:54:40 Job-Command copy https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/DigiAppFix%20(2).zip?se=2022-05-03t09%3A54%3A29z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02 C:\Users\LUNGAN~1\AppData\Local\Temp\16489796698690\DigiAppFix (2).zip --output-type=json --cancel-from-stdin --overwrite=prompt --check-md5 FailIfDifferent --from-to=BlobLocal --blob-type BlockBlob --recursive --log-level=INFO 
+2022/04/03 09:54:40 Number of CPUs: 8
+2022/04/03 09:54:40 Max file buffer RAM 4.000 GB
+2022/04/03 09:54:40 Max concurrent network operations: 128 (Based on number of CPUs. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2022/04/03 09:54:40 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2022/04/03 09:54:40 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2022/04/03 09:54:40 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2022/04/03 09:54:40 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2022/04/03 09:54:40 Max open files when downloading: 2147483119 (auto-computed)
+2022/04/03 09:54:40 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2022-04-03T09:54:35Z or --include-after=2022-04-03T09:54:35Z
+2022/04/03 09:54:40 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2022/04/03 09:54:40 Final job part has been created
+2022/04/03 09:54:40 JobID=b12fd3d1-07b0-9d42-6503-3032d6fce315, credential type: Anonymous
+2022/04/03 09:54:40 scheduling JobID=b12fd3d1-07b0-9d42-6503-3032d6fce315, Part#=0, Transfer#=0, priority=0
+2022/04/03 09:54:40 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs: 16
+2022/04/03 09:54:40 Final job part has been scheduled
+2022/04/03 09:54:40 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2022/04/03 09:54:40 INFO: [P#0-T#0] has worker 11 which is processing TRANSFER 0
+2022/04/03 09:54:41 ==> REQUEST/RESPONSE (Try=1/132.8125ms, OpTime=328.0937ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/DigiAppFix%20%282%29.zip?se=2022-05-03t09%3A54%3A29z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [9af91d3e-e01e-0012-3540-470f26000000]
+
+2022/04/03 09:54:41 ==> REQUEST/RESPONSE (Try=1/234.7095ms, OpTime=453.3727ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/DigiAppFix%20%282%29.zip?se=2022-05-03t09%3A54%3A29z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [42bc75e6-701e-0010-1840-47b19e000000]
+
+2022/04/03 09:54:41 ==> REQUEST/RESPONSE (Try=1/373.9643ms, OpTime=618.7266ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/DigiAppFix%20%282%29.zip?se=2022-05-03t09%3A54%3A29z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [16f1a61f-e01e-0002-2840-47ca4e000000]
+
+2022/04/03 09:54:42 ==> REQUEST/RESPONSE (Try=1/1.0800209s, OpTime=1.3423981s) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/DigiAppFix%20%282%29.zip?se=2022-05-03t09%3A54%3A29z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [7a6ecc48-301e-0001-7540-472b2a000000]
+
+2022/04/03 09:54:42 ==> REQUEST/RESPONSE (Try=1/1.2546771s, OpTime=1.5170543s) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/DigiAppFix%20%282%29.zip?se=2022-05-03t09%3A54%3A29z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [0e0b9308-e01e-002d-7340-47c785000000]
+
+2022/04/03 09:54:42 ==> REQUEST/RESPONSE (Try=1/1.4144975s, OpTime=1.6772118s) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/DigiAppFix%20%282%29.zip?se=2022-05-03t09%3A54%3A29z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [2e0d66e7-501e-0007-1640-471895000000]
+
+2022/04/03 09:54:42 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  1, B:  6, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  7, GRs: 128
+2022/04/03 09:54:42 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 174.1473
+2022/04/03 09:54:43 ==> REQUEST/RESPONSE (Try=1/2.0904468s, OpTime=2.3531611s) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/DigiAppFix%20%282%29.zip?se=2022-05-03t09%3A54%3A29z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [d51e35fe-701e-0000-5440-4774f6000000]
+
+2022/04/03 09:54:44 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  7, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  7, GRs: 128
+2022/04/03 09:54:44 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 33.477
+2022/04/03 09:54:46 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  6, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  7, GRs: 128
+2022/04/03 09:54:46 3.5 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2022/04/03 09:54:48 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  6, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  7, GRs: 128
+2022/04/03 09:54:48 3.5 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2022/04/03 09:54:50 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  6, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  7, GRs: 128
+2022/04/03 09:54:50 3.5 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2022/04/03 09:54:52 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  6, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  7, GRs: 128
+2022/04/03 09:54:52 3.5 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2022/04/03 09:54:54 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  6, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  7, GRs: 128
+2022/04/03 09:54:54 3.5 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2022/04/03 09:54:54 JobID=b12fd3d1-07b0-9d42-6503-3032d6fce315 canceled
+2022/04/03 09:54:54 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  6, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  7, GRs: 128
+2022/04/03 09:54:54 3.5 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2022/04/03 09:54:54 INFO: [P#0-T#0] Error reading body of reply. Next try (if any) will be Try=2. Will NOT retry. Error: context canceled. Offset: 3767612  Count: 4620996 URL: https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/DigiAppFix%20%282%29.zip?se=2022-05-03t09%3A54%3A29z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02
+2022/04/03 09:54:54 INFO: [P#0-T#0] Error reading body of reply. Next try (if any) will be Try=2. Will NOT retry. Error: context canceled. Offset: 10599733  Count: 6177483 URL: https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/DigiAppFix%20%282%29.zip?se=2022-05-03t09%3A54%3A29z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02
+2022/04/03 09:54:54 INFO: [P#0-T#0] Error reading body of reply. Next try (if any) will be Try=2. Will NOT retry. Error: context canceled. Offset: 29360128  Count: 4194304 URL: https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/DigiAppFix%20%282%29.zip?se=2022-05-03t09%3A54%3A29z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02
+2022/04/03 09:54:54 INFO: [P#0-T#0] Error reading body of reply. Next try (if any) will be Try=2. Will NOT retry. Error: context canceled. Offset: 44678452  Count: 5653196 URL: https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/DigiAppFix%20%282%29.zip?se=2022-05-03t09%3A54%3A29z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02
+2022/04/03 09:54:54 INFO: [P#0-T#0] Error reading body of reply. Next try (if any) will be Try=2. Will NOT retry. Error: context canceled. Offset: 34520372  Count: 7422668 URL: https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/DigiAppFix%20%282%29.zip?se=2022-05-03t09%3A54%3A29z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02
+2022/04/03 09:54:54 INFO: [P#0-T#0] Error reading body of reply. Next try (if any) will be Try=2. Will NOT retry. Error: context canceled. Offset: 17710388  Count: 7455436 URL: https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/DigiAppFix%20%282%29.zip?se=2022-05-03t09%3A54%3A29z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02
+2022/04/03 09:54:54 INFO: [P#0-T#0] https://team3backups.blob.core.windows.net/llk/Deployment%20Packages/DigiAppFix%20%282%29.zip?se=2022-05-03t09%3A54%3A29z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02 Deleting incomplete destination file Dst: \\?\C:\Users\LUNGAN~1\AppData\Local\Temp\16489796698690\DigiAppFix (2).zip
+2022/04/03 09:54:54 JobID=b12fd3d1-07b0-9d42-6503-3032d6fce315, Part#=0, TransfersDone=1 of 1
+2022/04/03 09:54:54 all parts of entire Job b12fd3d1-07b0-9d42-6503-3032d6fce315 successfully completed, cancelled or paused
+2022/04/03 09:54:54 all parts of entire Job b12fd3d1-07b0-9d42-6503-3032d6fce315 successfully cancelled
+2022/04/03 09:54:54 is part of Job which 1 total number of parts done 
+2022/04/03 09:54:56 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  6, S:  0, P:  1, Q:  0, D:  0, E:  0, T:  7, GRs: 128

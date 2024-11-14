@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.AspNet.TelemetryCorrelation</id>
+    <version>1.0.8</version>
+    <title>Microsoft Asp.Net telemetry correlation</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
+    <projectUrl>http://www.asp.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>A module that instruments incoming request with System.Diagnostics.Activity and notifies listeners with DiagnosticsSource.</description>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>Diagnostics DiagnosticSource Correlation Activity ASP.NET</tags>
+    <packageTypes>
+      <packageType name="Dependency" />
+    </packageTypes>
+    <repository type="Git" url="https://github.com/aspnet/Microsoft.AspNet.TelemetryCorrelation/" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="System.Diagnostics.DiagnosticSource" version="4.6.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

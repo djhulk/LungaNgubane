@@ -1,0 +1,58 @@
+2024/09/17 08:36:12 AzcopyVersion  10.24.0
+2024/09/17 08:36:12 OS-Environment  windows
+2024/09/17 08:36:12 OS-Architecture  amd64
+2024/09/17 08:36:12 Log times are in UTC. Local time is 17 Sep 2024 10:36:12
+2024/09/17 08:36:12 ==> REQUEST/RESPONSE (Try=1/17.7605ms, OpTime=102.7103ms) -- RESPONSE STATUS CODE ERROR
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2F?se=2024-10-17T08%3A36%3A10Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   Accept: application/xml
+   User-Agent: Microsoft/Azure/Storage/ azsdk-go-azfile/v1.2.1 (go1.19.12; Windows_NT)
+   X-Ms-Client-Request-Id: e1be6f35-2cb1-4294-7bae-73ce51bf9bf0
+   x-ms-allow-trailing-dot: true
+   x-ms-version: 2023-08-03
+   --------------------------------------------------------------------------------
+   RESPONSE Status: 400 The specifed resource name contains invalid characters.
+   Date: Tue, 17 Sep 2024 08:36:13 GMT
+   Server: Windows-Azure-File/1.0 Microsoft-HTTPAPI/2.0
+   X-Ms-Client-Request-Id: e1be6f35-2cb1-4294-7bae-73ce51bf9bf0
+   X-Ms-Error-Code: InvalidResourceName
+   X-Ms-Request-Id: 7e64d723-b01a-0020-1bdc-080f51000000
+   X-Ms-Version: 2023-08-03
+Response Details: 
+
+2024/09/17 08:36:12 ==> REQUEST/RESPONSE (Try=1/13.5288ms, OpTime=13.5288ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate?restype=directory&se=2024-10-17T08%3A36%3A10Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [7e64d726-b01a-0020-1cdc-080f51000000]
+
+2024/09/17 08:36:12 ==> REQUEST/RESPONSE (Try=1/12.5607ms, OpTime=12.5607ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate?restype=directory&se=2024-10-17T08%3A36%3A10Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [7e64d727-b01a-0020-1ddc-080f51000000]
+
+2024/09/17 08:36:12 ==> REQUEST/RESPONSE (Try=1/12.2047ms, OpTime=12.2047ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate?comp=list&restype=directory&se=2024-10-17T08%3A36%3A10Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [7e64d728-b01a-0020-1edc-080f51000000]
+
+2024/09/17 08:36:12 ==> REQUEST/RESPONSE (Try=1/11.3511ms, OpTime=11.3511ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate/Backup?comp=list&restype=directory&se=2024-10-17T08%3A36%3A10Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [7e64d729-b01a-0020-1fdc-080f51000000]
+
+2024/09/17 08:36:13 ==> REQUEST/RESPONSE (Try=1/12.7325ms, OpTime=24.0836ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate/Backup?restype=directory&se=2024-10-17T08%3A36%3A10Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [7e64d72a-b01a-0020-20dc-080f51000000]
+
+2024/09/17 08:36:13 ==> REQUEST/RESPONSE (Try=1/18.7287ms, OpTime=42.8123ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate/Template.xml?se=2024-10-17T08%3A36%3A10Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [7e64d72b-b01a-0020-21dc-080f51000000]
+
+2024/09/17 08:36:13 ==> REQUEST/RESPONSE (Try=1/11.9584ms, OpTime=54.7707ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate/setup.xml?se=2024-10-17T08%3A36%3A10Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [7e64d72c-b01a-0020-22dc-080f51000000]
+
+2024/09/17 08:36:13 ==> REQUEST/RESPONSE (Try=1/16.415ms, OpTime=51.2077ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate/Backup/Template_20240319.xml?se=2024-10-17T08%3A36%3A10Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [61960b20-001a-0025-02dc-08dd8a000000]
+
+2024/09/17 08:36:13 ==> REQUEST/RESPONSE (Try=1/16.9833ms, OpTime=54.0135ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate/Backup/Template.xml?se=2024-10-17T08%3A36%3A10Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [7b1848e4-e01a-0012-01dc-080f26000000]
+
+2024/09/17 08:36:15 Closing Log

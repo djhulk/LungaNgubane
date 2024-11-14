@@ -1,0 +1,58 @@
+2024/09/17 09:05:03 AzcopyVersion  10.24.0
+2024/09/17 09:05:03 OS-Environment  windows
+2024/09/17 09:05:03 OS-Architecture  amd64
+2024/09/17 09:05:03 Log times are in UTC. Local time is 17 Sep 2024 11:05:03
+2024/09/17 09:05:05 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2024-09-17T09:04:58Z or --include-after=2024-09-17T09:04:58Z
+2024/09/17 09:05:05 Any empty folders will be processed, because source and destination both support folders. For the same reason, properties defined on folders will be processed
+2024/09/17 09:05:05 Job-Command copy C:\Users\LungaNgubane\Documents\CLIENTS\SMARTLIFE\esypay\Template.xml https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/Template/Template.xml?se=2024-10-17t09%3A05%3A03z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03 --output-type=json --cancel-from-stdin --overwrite=prompt --from-to=LocalFile --follow-symlinks --check-length=true --put-md5 --follow-symlinks --preserve-smb-info=true --disable-auto-decoding=false --recursive --log-level=INFO --trailing-dot=Enable 
+2024/09/17 09:05:05 Number of CPUs: 8
+2024/09/17 09:05:05 Max file buffer RAM 4.000 GB
+2024/09/17 09:05:05 Max concurrent network operations:  will be dynamically tuned up to 3000 (Based on auto-tuning limit. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2024/09/17 09:05:05 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2024/09/17 09:05:05 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2024/09/17 09:05:05 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2024/09/17 09:05:05 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2024/09/17 09:05:05 Max open files when downloading: 2147479959 (auto-computed)
+2024/09/17 09:05:05 Final job part has been created
+2024/09/17 09:05:05 Trying 4 concurrent connections (initial starting point)
+2024/09/17 09:05:05 Final job part has been scheduled
+2024/09/17 09:05:05 WARN: [P#0-T#0] Block size 8388608 larger than maximum file chunk size, 4 MB chunk size used
+2024/09/17 09:05:05 INFO: [P#0-T#0] Starting transfer: Source "\\\\?\\C:\\Users\\LungaNgubane\\Documents\\CLIENTS\\SMARTLIFE\\esypay\\Template.xml" Destination "https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/Template/Template.xml". Specified chunk size 4194304
+2024/09/17 09:05:05 ==> REQUEST/RESPONSE (Try=1/16.1005ms, OpTime=50.678ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2FTemplate.xml?se=2024-10-17T09%3A05%3A03Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [7b193968-e01a-0012-76e0-080f26000000]
+
+2024/09/17 09:05:07 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs:  4
+2024/09/17 09:05:07 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2024/09/17 09:05:09 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs:  4
+2024/09/17 09:05:09 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2024/09/17 09:05:11 PERF: primary performance constraint is Unknown. States: X:  1, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  1, GRs:  4
+2024/09/17 09:05:11 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2024/09/17 09:05:12 ==> REQUEST/RESPONSE (Try=1/23.2333ms, OpTime=23.2333ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2FTemplate.xml?se=2024-10-17T09%3A05%3A03Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [7b1939bb-e01a-0012-2ae0-080f26000000]
+
+2024/09/17 09:05:12 ==> REQUEST/RESPONSE (Try=1/27.241ms, OpTime=30.016ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2FTemplate.xml?comp=range&se=2024-10-17T09%3A05%3A03Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [7b1939be-e01a-0012-2de0-080f26000000]
+
+2024/09/17 09:05:12 ==> REQUEST/RESPONSE (Try=1/14.5644ms, OpTime=15.1258ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2FTemplate.xml?comp=properties&se=2024-10-17T09%3A05%3A03Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [7b1939c2-e01a-0012-2fe0-080f26000000]
+
+2024/09/17 09:05:12 ==> REQUEST/RESPONSE (Try=1/13.9524ms, OpTime=13.9524ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   PUT https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2FTemplate.xml?comp=properties&se=2024-10-17T09%3A05%3A03Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [7b1939c3-e01a-0012-30e0-080f26000000]
+
+2024/09/17 09:05:12 ==> REQUEST/RESPONSE (Try=1/12.6439ms, OpTime=13.7093ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2FTemplate.xml?se=2024-10-17T09%3A05%3A03Z&sig=-REDACTED-&sp=rwl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [7b1939c5-e01a-0012-32e0-080f26000000]
+
+2024/09/17 09:05:12 INFO: [P#0-T#0] UPLOADSUCCESSFUL: https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/Template/Template.xml
+2024/09/17 09:05:12 JobID=e6d7324c-a970-d24b-6b15-0579317d19e8, Part#=0, TransfersDone=1 of 1
+2024/09/17 09:05:12 all parts of entire Job e6d7324c-a970-d24b-6b15-0579317d19e8 successfully completed, cancelled or paused
+2024/09/17 09:05:12 is part of Job which 1 total number of parts done 
+2024/09/17 09:05:13 Trying 16 concurrent connections (seeking optimum)
+2024/09/17 09:05:13 PERF: primary performance constraint is Unknown. States: X:  0, O:  0, M:  0, L:  0, R:  0, D:  0, W:  0, F:  0, B:  0, E:  0, T:  0, GRs: 16
+2024/09/17 09:05:13 100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.1447
+2024/09/17 09:05:13 Closing Log

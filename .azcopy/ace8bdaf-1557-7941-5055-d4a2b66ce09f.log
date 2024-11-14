@@ -1,0 +1,33 @@
+2024/08/19 13:39:02 AzcopyVersion  10.24.0
+2024/08/19 13:39:02 OS-Environment  windows
+2024/08/19 13:39:02 OS-Architecture  amd64
+2024/08/19 13:39:02 Log times are in UTC. Local time is 19 Aug 2024 15:39:02
+2024/08/19 13:39:03 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2024-08-19T13:38:57Z or --include-after=2024-08-19T13:38:57Z
+2024/08/19 13:39:04 Any empty folders will be processed, because source and destination both support folders. For the same reason, properties defined on folders will be processed
+2024/08/19 13:39:04 Job-Command copy https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms/EasyPay%20Insurance%20Funeral%20Plan/Template/Template.xml?se=2024-09-18t13%3A39%3A02z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03 C:\Users\LungaNgubane\Downloads\Template.xml --output-type=json --cancel-from-stdin --overwrite=prompt --check-md5 FailIfDifferent --from-to=FileLocal --preserve-smb-info=true --recursive --log-level=INFO --trailing-dot=Enable 
+2024/08/19 13:39:04 Number of CPUs: 8
+2024/08/19 13:39:04 Max file buffer RAM 4.000 GB
+2024/08/19 13:39:04 Max concurrent network operations:  will be dynamically tuned up to 3000 (Based on auto-tuning limit. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2024/08/19 13:39:04 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2024/08/19 13:39:04 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2024/08/19 13:39:04 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2024/08/19 13:39:04 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2024/08/19 13:39:04 Max open files when downloading: 2147479959 (auto-computed)
+2024/08/19 13:39:04 Final job part has been created
+2024/08/19 13:39:04 Trying 4 concurrent connections (initial starting point)
+2024/08/19 13:39:04 Final job part has been scheduled
+2024/08/19 13:39:04 ==> REQUEST/RESPONSE (Try=1/29.8471ms, OpTime=67.1285ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2FTemplate.xml?se=2024-09-18T13%3A39%3A02Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [56d22a2c-901a-0018-603d-f2ab91000000]
+
+2024/08/19 13:39:04 ==> REQUEST/RESPONSE (Try=1/13.5535ms, OpTime=13.5535ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   HEAD https://smlifestoragetest.file.core.windows.net/bpidrop/Transforms%2FEasyPay%20Insurance%20Funeral%20Plan%2FTemplate%2FTemplate.xml?se=2024-09-18T13%3A39%3A02Z&sig=-REDACTED-&sp=rl&sr=s&sv=2023-11-03
+   X-Ms-Request-Id: [56d22a2f-901a-0018-613d-f2ab91000000]
+
+2024/08/19 13:39:04 INFO: [P#0-T#0] DOWNLOADSUCCESSFUL: \\?\C:\Users\LungaNgubane\Downloads\Template.xml
+2024/08/19 13:39:04 JobID=ace8bdaf-1557-7941-5055-d4a2b66ce09f, Part#=0, TransfersDone=1 of 1
+2024/08/19 13:39:04 all parts of entire Job ace8bdaf-1557-7941-5055-d4a2b66ce09f successfully completed, cancelled or paused
+2024/08/19 13:39:04 is part of Job which 1 total number of parts done 
+2024/08/19 13:39:06 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs:  4
+2024/08/19 13:39:06 100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.1446
+2024/08/19 13:39:06 Closing Log

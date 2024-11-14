@@ -1,0 +1,116 @@
+2022/01/31 06:48:22 AzcopyVersion  10.13.0
+2022/01/31 06:48:22 OS-Environment  windows
+2022/01/31 06:48:22 OS-Architecture  amd64
+2022/01/31 06:48:22 Log times are in UTC. Local time is 31 Jan 2022 08:48:22
+2022/01/31 06:48:22 Job-Command copy https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02 C:\Users\LUNGAN~1\AppData\Local\Temp\16436116975890\XRG_MUA_BHAVE_Smoketest.bacpac --output-type=json --cancel-from-stdin --overwrite=prompt --check-md5 FailIfDifferent --from-to=BlobLocal --blob-type BlockBlob --recursive --log-level=INFO 
+2022/01/31 06:48:22 Number of CPUs: 8
+2022/01/31 06:48:22 Max file buffer RAM 4.000 GB
+2022/01/31 06:48:22 Max concurrent network operations: 128 (Based on number of CPUs. Set AZCOPY_CONCURRENCY_VALUE environment variable to override)
+2022/01/31 06:48:22 Check CPU usage when dynamically tuning concurrency: true (Based on hard-coded default. Set AZCOPY_TUNE_TO_CPU environment variable to true or false override)
+2022/01/31 06:48:22 Max concurrent transfer initiation routines: 64 (Based on hard-coded default. Set AZCOPY_CONCURRENT_FILES environment variable to override)
+2022/01/31 06:48:22 Max enumeration routines: 16 (Based on hard-coded default. Set AZCOPY_CONCURRENT_SCAN environment variable to override)
+2022/01/31 06:48:22 Parallelize getting file properties (file.Stat): false (Based on AZCOPY_PARALLEL_STAT_FILES environment variable)
+2022/01/31 06:48:22 Max open files when downloading: 2147483119 (auto-computed)
+2022/01/31 06:48:22 ISO 8601 START TIME: to copy files that changed before or after this job started, use the parameter --include-before=2022-01-31T06:48:16Z or --include-after=2022-01-31T06:48:16Z
+2022/01/31 06:48:22 Any empty folders will not be processed, because source and/or destination doesn't have full folder support
+2022/01/31 06:48:22 JobID=c65e5ab9-d88b-5a4e-705a-1afd73213a71, credential type: Anonymous
+2022/01/31 06:48:22 scheduling JobID=c65e5ab9-d88b-5a4e-705a-1afd73213a71, Part#=0, Transfer#=0, priority=0
+2022/01/31 06:48:22 Final job part has been scheduled
+2022/01/31 06:48:22 Final job part has been created
+2022/01/31 06:48:22 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B:  0, S:  0, P:  0, Q:  0, D:  0, E:  0, T:  0, GRs: 55
+2022/01/31 06:48:22 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2022/01/31 06:48:22 INFO: [P#0-T#0] has worker 30 which is processing TRANSFER 0
+2022/01/31 06:48:22 ==> REQUEST/RESPONSE (Try=1/349.2157ms, OpTime=572.4952ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [c7fa42bc-e01e-002d-536e-16c785000000]
+
+2022/01/31 06:48:22 ==> REQUEST/RESPONSE (Try=1/336.4446ms, OpTime=606.4898ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [89696f95-f01e-0021-016e-16508d000000]
+
+2022/01/31 06:48:22 ==> REQUEST/RESPONSE (Try=1/393.4963ms, OpTime=689.3353ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [9a4a7b50-701e-0000-286e-1674f6000000]
+
+2022/01/31 06:48:23 ==> REQUEST/RESPONSE (Try=1/654.9381ms, OpTime=923.9981ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [9275013c-c01e-0015-5a6e-166345000000]
+
+2022/01/31 06:48:23 ==> REQUEST/RESPONSE (Try=1/703.5892ms, OpTime=999.3888ms) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [c80330fe-101e-0029-5d6e-164a82000000]
+
+2022/01/31 06:48:23 ==> REQUEST/RESPONSE (Try=1/883.8715ms, OpTime=1.1722292s) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [dfac5147-801e-0004-686e-16f9f1000000]
+
+2022/01/31 06:48:23 ==> REQUEST/RESPONSE (Try=1/1.0913508s, OpTime=1.3174301s) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [bf5d5591-a01e-002c-246e-169859000000]
+
+2022/01/31 06:48:23 ==> REQUEST/RESPONSE (Try=1/1.188012s, OpTime=1.4763697s) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [3ee1863f-f01e-001e-456e-16982e000000]
+
+2022/01/31 06:48:23 ==> REQUEST/RESPONSE (Try=1/1.3245225s, OpTime=1.5944328s) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [9dda6e2b-801e-002b-726e-16f43a000000]
+
+2022/01/31 06:48:24 ==> REQUEST/RESPONSE (Try=1/1.6498034s, OpTime=1.875923s) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [c415d4ea-201e-0022-446e-16b1e9000000]
+
+2022/01/31 06:48:24 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  5, B: 10, S:  0, P:  0, Q:  0, D:  0, E:  0, T: 15, GRs: 128
+2022/01/31 06:48:24 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 313.8603
+2022/01/31 06:48:24 ==> REQUEST/RESPONSE (Try=1/1.7105169s, OpTime=1.9988746s) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [d10c7412-501e-0017-506e-16ddfd000000]
+
+2022/01/31 06:48:24 ==> REQUEST/RESPONSE (Try=1/1.7336585s, OpTime=2.0304407s) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [d019f8ce-a01e-0003-6a6e-169592000000]
+
+2022/01/31 06:48:24 ==> REQUEST/RESPONSE (Try=1/2.1465382s, OpTime=2.3711496s) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [21de0b9d-f01e-000e-126e-165d46000000]
+
+2022/01/31 06:48:24 ==> REQUEST/RESPONSE (Try=1/2.2714038s, OpTime=2.542789s) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [9b8eda9c-301e-0011-706e-16ee42000000]
+
+2022/01/31 06:48:25 ==> REQUEST/RESPONSE (Try=1/2.5252711s, OpTime=2.820772s) -- RESPONSE SUCCESSFULLY RECEIVED
+   GET https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02&timeout=901
+   X-Ms-Request-Id: [0c3963ea-401e-001b-2f6e-164af5000000]
+
+2022/01/31 06:48:26 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B: 15, S:  0, P:  0, Q:  0, D:  0, E:  0, T: 15, GRs: 128
+2022/01/31 06:48:26 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 167.3981
+2022/01/31 06:48:28 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B: 15, S:  0, P:  0, Q:  0, D:  0, E:  0, T: 15, GRs: 128
+2022/01/31 06:48:28 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2022/01/31 06:48:30 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B: 15, S:  0, P:  0, Q:  0, D:  0, E:  0, T: 15, GRs: 128
+2022/01/31 06:48:30 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2022/01/31 06:48:32 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B: 15, S:  0, P:  0, Q:  0, D:  0, E:  0, T: 15, GRs: 128
+2022/01/31 06:48:32 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2022/01/31 06:48:32 JobID=c65e5ab9-d88b-5a4e-705a-1afd73213a71 canceled
+2022/01/31 06:48:32 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B: 15, S:  0, P:  0, Q:  0, D:  0, E:  0, T: 15, GRs: 128
+2022/01/31 06:48:32 0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 
+2022/01/31 06:48:32 INFO: [P#0-T#0] Error reading body of reply. Next try (if any) will be Try=2. Will NOT retry. Error: context canceled. Offset: 17185724  Count: 7980100 URL: https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02
+2022/01/31 06:48:32 INFO: [P#0-T#0] Error reading body of reply. Next try (if any) will be Try=2. Will NOT retry. Error: context canceled. Offset: 101006266  Count: 8045638 URL: https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02
+2022/01/31 06:48:32 INFO: [P#0-T#0] Error reading body of reply. Next try (if any) will be Try=2. Will NOT retry. Error: context canceled. Offset: 42220476  Count: 8111172 URL: https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02
+2022/01/31 06:48:32 INFO: [P#0-T#0] Error reading body of reply. Next try (if any) will be Try=2. Will NOT retry. Error: context canceled. Offset: 28474300  Count: 5080132 URL: https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02
+2022/01/31 06:48:32 INFO: [P#0-T#0] Error reading body of reply. Next try (if any) will be Try=2. Will NOT retry. Error: context canceled. Offset: 84556732  Count: 7717956 URL: https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02
+2022/01/31 06:48:32 INFO: [P#0-T#0] Error reading body of reply. Next try (if any) will be Try=2. Will NOT retry. Error: context canceled. Offset: 8895421  Count: 7881795 URL: https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02
+2022/01/31 06:48:32 INFO: [P#0-T#0] Error reading body of reply. Next try (if any) will be Try=2. Will NOT retry. Error: context canceled. Offset: 34061244  Count: 7881796 URL: https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02
+2022/01/31 06:48:32 INFO: [P#0-T#0] Error reading body of reply. Next try (if any) will be Try=2. Will NOT retry. Error: context canceled. Offset: 75955132  Count: 7930948 URL: https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02
+2022/01/31 06:48:32 INFO: [P#0-T#0] Error reading body of reply. Next try (if any) will be Try=2. Will NOT retry. Error: context canceled. Offset: 50871228  Count: 7849028 URL: https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02
+2022/01/31 06:48:32 INFO: [P#0-T#0] Error reading body of reply. Next try (if any) will be Try=2. Will NOT retry. Error: context canceled. Offset: 59325372  Count: 7783492 URL: https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02
+2022/01/31 06:48:32 INFO: [P#0-T#0] Error reading body of reply. Next try (if any) will be Try=2. Will NOT retry. Error: context canceled. Offset: 342980  Count: 8045628 URL: https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02
+2022/01/31 06:48:32 INFO: [P#0-T#0] Error reading body of reply. Next try (if any) will be Try=2. Will NOT retry. Error: context canceled. Offset: 109558714  Count: 7881798 URL: https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02
+2022/01/31 06:48:32 INFO: [P#0-T#0] Error reading body of reply. Next try (if any) will be Try=2. Will NOT retry. Error: context canceled. Offset: 67451836  Count: 8045636 URL: https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02
+2022/01/31 06:48:32 INFO: [P#0-T#0] Error reading body of reply. Next try (if any) will be Try=2. Will NOT retry. Error: context canceled. Offset: 119421882  Count: 1554334 URL: https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02
+2022/01/31 06:48:32 INFO: [P#0-T#0] Error reading body of reply. Next try (if any) will be Try=2. Will NOT retry. Error: context canceled. Offset: 93518779  Count: 7144517 URL: https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02
+2022/01/31 06:48:32 INFO: [P#0-T#0] https://silverbridge.blob.core.windows.net/team2-db-backups/XRG_MUA_BHAVE_Smoketest.bacpac?se=2022-03-02t06%3A48%3A17z&sig=-REDACTED-&sp=rl&sr=c&sv=2020-10-02 Deleting incomplete destination file Dst: \\?\C:\Users\LUNGAN~1\AppData\Local\Temp\16436116975890\XRG_MUA_BHAVE_Smoketest.bacpac
+2022/01/31 06:48:32 JobID=c65e5ab9-d88b-5a4e-705a-1afd73213a71, Part#=0, TransfersDone=1 of 1
+2022/01/31 06:48:32 all parts of entire Job c65e5ab9-d88b-5a4e-705a-1afd73213a71 successfully completed, cancelled or paused
+2022/01/31 06:48:32 all parts of entire Job c65e5ab9-d88b-5a4e-705a-1afd73213a71 successfully cancelled
+2022/01/31 06:48:32 is part of Job which 1 total number of parts done 
+2022/01/31 06:48:34 PERF: primary performance constraint is Unknown. States: C:  0, R:  0, W:  0, F:  0, H:  0, B: 15, S:  0, P:  0, Q:  0, D:  0, E:  0, T: 15, GRs: 128
